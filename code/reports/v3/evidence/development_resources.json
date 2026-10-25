@@ -1,0 +1,122 @@
+[
+  {
+    "stage": "prepare/day286",
+    "seconds": 35.189213700003165,
+    "peak_process_rss_mb": 3311.16015625
+  },
+  {
+    "stage": "prepare/day288",
+    "seconds": 34.86597080000138,
+    "peak_process_rss_mb": 3501.28125
+  },
+  {
+    "stage": "prepare/day290",
+    "seconds": 36.731108299998596,
+    "peak_process_rss_mb": 3701.2421875
+  },
+  {
+    "stage": "prepare/day292",
+    "seconds": 36.857023300002766,
+    "peak_process_rss_mb": 3811.96484375
+  },
+  {
+    "stage": "prepare/day294",
+    "seconds": 36.40211739999722,
+    "peak_process_rss_mb": 3811.8984375
+  },
+  {
+    "stage": "prepare/day296",
+    "seconds": 36.46309040000051,
+    "peak_process_rss_mb": 3899.85546875
+  },
+  {
+    "stage": "search/manual/5",
+    "seconds": 170.30515519999972,
+    "peak_process_rss_mb": 3773.93359375
+  },
+  {
+    "stage": "search/manual/7",
+    "seconds": 205.100951299999,
+    "peak_process_rss_mb": 4180.41015625
+  },
+  {
+    "stage": "search/raw/5",
+    "seconds": 191.8577312999987,
+    "peak_process_rss_mb": 2171.13671875
+  },
+  {
+    "stage": "search/raw/7",
+    "seconds": 231.18115639999814,
+    "peak_process_rss_mb": 2186.6875
+  },
+  {
+    "stage": "search/signed/5",
+    "seconds": 192.20220079999854,
+    "peak_process_rss_mb": 2444.9375
+  },
+  {
+    "stage": "search/signed/7",
+    "seconds": 232.42310540000108,
+    "peak_process_rss_mb": 2557.38671875
+  },
+  {
+    "stage": "search/global/5",
+    "seconds": 193.6664008000007,
+    "peak_process_rss_mb": 2695.0859375
+  },
+  {
+    "stage": "search/global/7",
+    "seconds": 234.03382000000056,
+    "peak_process_rss_mb": 2793.51171875
+  },
+  {
+    "stage": "search/conditional/5",
+    "seconds": 193.61167899999782,
+    "peak_process_rss_mb": 2746.80078125
+  },
+  {
+    "stage": "search/conditional/7",
+    "seconds": 253.02076920000036,
+    "peak_process_rss_mb": 2814.796875
+  },
+  {
+    "stage": "search/all/5",
+    "seconds": 212.09468389999893,
+    "peak_process_rss_mb": 2885.76953125
+  },
+  {
+    "stage": "search/all/7",
+    "seconds": 236.79696780000086,
+    "peak_process_rss_mb": 3065.37890625
+  },
+  {
+    "stage": "confirm/raw/17",
+    "seconds": 270.332948700001,
+    "peak_process_rss_mb": 2403.1875
+  },
+  {
+    "stage": "confirm/manual/17",
+    "seconds": 295.3521843000017,
+    "peak_process_rss_mb": 2472.1171875
+  },
+  {
+    "stage": "confirm/signed/17",
+    "seconds": 244.68392270000186,
+    "peak_process_rss_mb": 2833.625
+  },
+  {
+    "stage": "confirm/conditional/17",
+    "seconds": 276.6128269000001,
+    "peak_process_rss_mb": 2914.98828125
+  },
+  {
+    "stage": "confirm/global/17",
+    "seconds": 264.6806120000001,
+    "peak_process_rss_mb": 2868.171875
+  },
+  {
+    "stage": "confirm/all/17",
+    "seconds": 242.03385079999862,
+    "peak_process_rss_mb": 3085.93359375
+  }
+]

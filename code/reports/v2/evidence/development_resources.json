@@ -1,0 +1,112 @@
+[
+  {
+    "stage": "prepare/2021-06-28",
+    "seconds": 9.186030000000756,
+    "peak_process_rss_mb": 709.18359375
+  },
+  {
+    "stage": "prepare/2021-07-05",
+    "seconds": 8.382830499999727,
+    "peak_process_rss_mb": 973.58984375
+  },
+  {
+    "stage": "prepare/2021-07-12",
+    "seconds": 8.77689670000018,
+    "peak_process_rss_mb": 1133.265625
+  },
+  {
+    "stage": "prepare/2021-07-19",
+    "seconds": 9.721168100000796,
+    "peak_process_rss_mb": 1316.46484375
+  },
+  {
+    "stage": "prepare/2021-07-26",
+    "seconds": 10.539097799999581,
+    "peak_process_rss_mb": 1456.33984375
+  },
+  {
+    "stage": "prepare/2021-08-02",
+    "seconds": 12.715048699999898,
+    "peak_process_rss_mb": 1633.984375
+  },
+  {
+    "stage": "prepare/2021-08-09",
+    "seconds": 13.051368299999922,
+    "peak_process_rss_mb": 1814.44140625
+  },
+  {
+    "stage": "search/manual/5",
+    "seconds": 79.17931080000017,
+    "peak_process_rss_mb": 1967.2265625
+  },
+  {
+    "stage": "search/manual/7",
+    "seconds": 83.66523510000025,
+    "peak_process_rss_mb": 1995.2421875
+  },
+  {
+    "stage": "search/hybrid/5",
+    "seconds": 78.86670789999971,
+    "peak_process_rss_mb": 2021.56640625
+  },
+  {
+    "stage": "search/hybrid/7",
+    "seconds": 84.17163980000078,
+    "peak_process_rss_mb": 2033.15234375
+  },
+  {
+    "stage": "out_of_time_teacher",
+    "seconds": 120.92359909999959,
+    "peak_process_rss_mb": 2467.91796875
+  },
+  {
+    "stage": "confirm/oof",
+    "seconds": 38.36904709999999,
+    "peak_process_rss_mb": 3357.9375
+  },
+  {
+    "stage": "confirm/manual/17",
+    "seconds": 48.06846610000048,
+    "peak_process_rss_mb": 3383.51953125
+  },
+  {
+    "stage": "confirm/hybrid/17",
+    "seconds": 104.01391799999965,
+    "peak_process_rss_mb": 3345.66796875
+  },
+  {
+    "stage": "exploratory_test/oof",
+    "seconds": 55.867104899999504,
+    "peak_process_rss_mb": 3893.24609375
+  },
+  {
+    "stage": "exploratory_test/manual/17",
+    "seconds": 64.98709500000041,
+    "peak_process_rss_mb": 3882.8828125
+  },
+  {
+    "stage": "exploratory_test/hybrid/17",
+    "seconds": 149.84924039999987,
+    "peak_process_rss_mb": 3823.48046875
+  },
+  {
+    "stage": "exploratory_test/manual/42",
+    "seconds": 65.02419129999998,
+    "peak_process_rss_mb": 3697.765625
+  },
+  {
+    "stage": "exploratory_test/hybrid/42",
+    "seconds": 113.04781090000051,
+    "peak_process_rss_mb": 3832.1015625
+  },
+  {
+    "stage": "exploratory_test/manual/73",
+    "seconds": 53.38094069999988,
+    "peak_process_rss_mb": 3712.04296875
+  },
+  {
+    "stage": "exploratory_test/hybrid/73",
+    "seconds": 109.57136190000074,
+    "peak_process_rss_mb": 3842.24609375
+  }
+]

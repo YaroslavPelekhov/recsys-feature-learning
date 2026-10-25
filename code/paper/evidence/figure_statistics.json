@@ -1,0 +1,345 @@
+{
+  "overview": [
+    {
+      "stage": "v2",
+      "title": "KION",
+      "users": 834,
+      "rows": [
+        {
+          "method": "popularity",
+          "label": "Популярность",
+          "mean": 0.24000257572081743,
+          "seed_values": []
+        },
+        {
+          "method": "manual",
+          "label": "CatBoost",
+          "mean": 0.2317300589220257,
+          "seed_values": [
+            0.23383452316611164,
+            0.23203110301996926,
+            0.22932455057999618
+          ]
+        },
+        {
+          "method": "ease",
+          "label": "EASE",
+          "mean": 0.18739061977426424,
+          "seed_values": []
+        },
+        {
+          "method": "hybrid",
+          "label": "CatBoost + EASE",
+          "mean": 0.24033397563942618,
+          "seed_values": [
+            0.242824292593484,
+            0.2386473848981497,
+            0.23953024942664486
+          ]
+        },
+        {
+          "method": "adaptive_mix",
+          "label": "Adaptive mixture",
+          "mean": 0.24205706340847188,
+          "seed_values": []
+        },
+        {
+          "method": "residual_router",
+          "label": "Residual router",
+          "mean": 0.23297898573214654,
+          "seed_values": [
+            0.23443978026946696,
+            0.23235288778383595,
+            0.23214428914313673
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "v3",
+      "title": "Yambda A",
+      "users": 620,
+      "rows": [
+        {
+          "method": "popularity",
+          "label": "Популярность",
+          "mean": 0.015595098381772969,
+          "seed_values": []
+        },
+        {
+          "method": "repeat",
+          "label": "Повторы",
+          "mean": 0.19339692733018415,
+          "seed_values": []
+        },
+        {
+          "method": "userknn",
+          "label": "UserKNN",
+          "mean": 0.0309740954781912,
+          "seed_values": []
+        },
+        {
+          "method": "manual",
+          "label": "CatBoost",
+          "mean": 0.2189443331106405,
+          "seed_values": [
+            0.21977626628095223,
+            0.21774740428454908,
+            0.21930932876642012
+          ]
+        },
+        {
+          "method": "global",
+          "label": "+ Global",
+          "mean": 0.21929314248861692,
+          "seed_values": [
+            0.2198613224230039,
+            0.21872052219469446,
+            0.21929758284815248
+          ]
+        },
+        {
+          "method": "conditional",
+          "label": "+ Conditional",
+          "mean": 0.2185479449229952,
+          "seed_values": [
+            0.21817287887067374,
+            0.21882582870894993,
+            0.21864512718936183
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "v4",
+      "title": "Yambda B",
+      "users": 636,
+      "rows": [
+        {
+          "method": "popularity",
+          "label": "Популярность",
+          "mean": 0.015812076886178684,
+          "seed_values": []
+        },
+        {
+          "method": "repeat",
+          "label": "Повторы",
+          "mean": 0.19947607632548287,
+          "seed_values": []
+        },
+        {
+          "method": "manual",
+          "label": "CatBoost",
+          "mean": 0.21943767084354038,
+          "seed_values": [
+            0.219808815721001,
+            0.21884663191021592,
+            0.2196575648994041
+          ]
+        },
+        {
+          "method": "G0",
+          "label": "$G_0$",
+          "mean": 0.09110889282554023,
+          "seed_values": [
+            0.07764524330947584,
+            0.09662176201282201,
+            0.09905967315432283
+          ]
+        },
+        {
+          "method": "A0",
+          "label": "$A_0$",
+          "mean": 0.11043045546235161,
+          "seed_values": [
+            0.10704855707985796,
+            0.11136462700688594,
+            0.11287818230031095
+          ]
+        },
+        {
+          "method": "G1",
+          "label": "$G_1$",
+          "mean": 0.04507457008886346,
+          "seed_values": [
+            0.044853686738622126,
+            0.0445925309183762,
+            0.045777492609592046
+          ]
+        },
+        {
+          "method": "A1",
+          "label": "$A_1$",
+          "mean": 0.06639486357428959,
+          "seed_values": [
+            0.06718508735264672,
+            0.06692059009933238,
+            0.06507891327088963
+          ]
+        }
+      ]
+    }
+  ],
+  "contrasts": [
+    [
+      {
+        "label": "Conditional - Global",
+        "primary": true,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.0007451975656217614,
+        "ci95": [
+          -0.0019723282817897315,
+          0.0003652607748986712
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      },
+      {
+        "label": "+ Global",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": 0.00034880937797644414,
+        "ci95": [
+          -0.0007275526019357835,
+          0.0015110976307173146
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      },
+      {
+        "label": "+ Conditional",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.0003963881876453172,
+        "ci95": [
+          -0.0013196619921832262,
+          0.0005582526379082184
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      },
+      {
+        "label": "+ Raw graph",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.001569282229010686,
+        "ci95": [
+          -0.0034168844322836804,
+          0.00029526697931189094
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      },
+      {
+        "label": "+ Signed graph",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.0021985969896388116,
+        "ci95": [
+          -0.004221242547630532,
+          -0.00023347902006583176
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      },
+      {
+        "label": "Noise mixture",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.0009608182376217638,
+        "ci95": [
+          -0.003007794258013113,
+          0.0010075815967522982
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      }
+    ],
+    [
+      {
+        "label": "$A_1-G_0$",
+        "primary": true,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.024714029251250647,
+        "ci95": [
+          -0.03280312665888835,
+          -0.016524964407802944
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      },
+      {
+        "label": "$G_1-G_0$",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.04603432273667677,
+        "ci95": [
+          -0.05612798674368564,
+          -0.0363098582628385
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      },
+      {
+        "label": "$A_1-A_0$",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.04403559188806203,
+        "ci95": [
+          -0.05421722913944206,
+          -0.03411533049604652
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      },
+      {
+        "label": "$A_0-G_0$",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": 0.01932156263681139,
+        "ci95": [
+          0.01344611208333976,
+          0.0254518339730519
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      },
+      {
+        "label": "$A_1-G_1$",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": 0.021320293485426123,
+        "ci95": [
+          0.01664352403009597,
+          0.02650176594760864
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      },
+      {
+        "label": "Взаимодействие",
+        "primary": false,
+        "metric": "ndcg",
+        "difference_b_minus_a": 0.0019987308486147347,
+        "ci95": [
+          -0.003718747157382857,
+          0.008023881591245773
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      }
+    ]
+  ]
+}

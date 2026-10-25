@@ -1,0 +1,6 @@
+{
+  "pre_metric_fix": "unsigned timestamp subtraction cast to int64 before negative decay",
+  "execution": "switched from serial to two independent 12-thread CPU workers after both manual search trials; unfinished raw/depth5 job discarded without a metric",
+  "published_cost_scope": "recorded completed stages, excludes interrupted attempts and initial environment setup",
+  "scheduling": "After HPO freeze, initial confirm attempts were interrupted before output and resumed under shared two-slot CPU scheduling; model recipes unchanged."
+}

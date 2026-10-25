@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "future_invariance": [
+    {
+      "day": 298,
+      "rows": 297903,
+      "future_rows_mutated": 71356,
+      "all_columns_equal": true,
+      "max_absolute_error": 0.0,
+      "canonical_cache_sha256": "21e7ee60cd7ec29ab94013b35a5437f1c057869bdf275f59475183a357444c34"
+    },
+    {
+      "day": 299,
+      "rows": 297829,
+      "future_rows_mutated": 48060,
+      "all_columns_equal": true,
+      "max_absolute_error": 0.0,
+      "canonical_cache_sha256": "0dd0ec6c1e5e939c29f89f27b0de39a74c613f2bacaa15e8f51cbdf67f25dd94"
+    }
+  ],
+  "main_test_targets_exist": false
+}

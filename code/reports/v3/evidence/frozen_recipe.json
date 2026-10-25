@@ -1,0 +1,1089 @@
+{
+  "manual": {
+    "method": "manual",
+    "depth": 7,
+    "ndcg@10": 0.22078056176397043,
+    "iterations": 550,
+    "trajectory": [
+      {
+        "iterations": 25,
+        "ndcg@10": 0.19197650039216108
+      },
+      {
+        "iterations": 50,
+        "ndcg@10": 0.19575884784180228
+      },
+      {
+        "iterations": 75,
+        "ndcg@10": 0.19919580923794555
+      },
+      {
+        "iterations": 100,
+        "ndcg@10": 0.19786213264755356
+      },
+      {
+        "iterations": 125,
+        "ndcg@10": 0.20005487418655657
+      },
+      {
+        "iterations": 150,
+        "ndcg@10": 0.20152975702566983
+      },
+      {
+        "iterations": 175,
+        "ndcg@10": 0.20417629607708446
+      },
+      {
+        "iterations": 200,
+        "ndcg@10": 0.20803327899392163
+      },
+      {
+        "iterations": 225,
+        "ndcg@10": 0.21013917230511014
+      },
+      {
+        "iterations": 250,
+        "ndcg@10": 0.21231882955693232
+      },
+      {
+        "iterations": 275,
+        "ndcg@10": 0.21382736400306884
+      },
+      {
+        "iterations": 300,
+        "ndcg@10": 0.213485811382023
+      },
+      {
+        "iterations": 325,
+        "ndcg@10": 0.2150864553204966
+      },
+      {
+        "iterations": 350,
+        "ndcg@10": 0.21521859955518147
+      },
+      {
+        "iterations": 375,
+        "ndcg@10": 0.21623966761463864
+      },
+      {
+        "iterations": 400,
+        "ndcg@10": 0.2158352161893669
+      },
+      {
+        "iterations": 425,
+        "ndcg@10": 0.2174102365955055
+      },
+      {
+        "iterations": 450,
+        "ndcg@10": 0.21824949466910837
+      },
+      {
+        "iterations": 475,
+        "ndcg@10": 0.21916076616739244
+      },
+      {
+        "iterations": 500,
+        "ndcg@10": 0.21941578316828234
+      },
+      {
+        "iterations": 525,
+        "ndcg@10": 0.22033809877762592
+      },
+      {
+        "iterations": 550,
+        "ndcg@10": 0.22078056176397043
+      },
+      {
+        "iterations": 575,
+        "ndcg@10": 0.22058404000232754
+      },
+      {
+        "iterations": 600,
+        "ndcg@10": 0.22026620363838664
+      }
+    ],
+    "features": 69,
+    "columns": [
+      "repeat_score",
+      "pop_score",
+      "knn_score",
+      "artist_score",
+      "retrieval_rrf",
+      "retrieval_rank",
+      "u_total_1",
+      "u_positive_1",
+      "i_total_1",
+      "i_positive_1",
+      "ui_total_1",
+      "ui_positive_1",
+      "ua_total_1",
+      "ua_positive_1",
+      "u_positive_rate_1",
+      "i_positive_rate_1",
+      "ui_positive_rate_1",
+      "ua_positive_rate_1",
+      "ui_share_1",
+      "ua_share_1",
+      "u_total_7",
+      "u_positive_7",
+      "i_total_7",
+      "i_positive_7",
+      "ui_total_7",
+      "ui_positive_7",
+      "ua_total_7",
+      "ua_positive_7",
+      "u_positive_rate_7",
+      "i_positive_rate_7",
+      "ui_positive_rate_7",
+      "ua_positive_rate_7",
+      "ui_share_7",
+      "ua_share_7",
+      "u_total_30",
+      "u_positive_30",
+      "i_total_30",
+      "i_positive_30",
+      "ui_total_30",
+      "ui_positive_30",
+      "ua_total_30",
+      "ua_positive_30",
+      "u_positive_rate_30",
+      "i_positive_rate_30",
+      "ui_positive_rate_30",
+      "ua_positive_rate_30",
+      "ui_share_30",
+      "ua_share_30",
+      "u_total_all",
+      "u_positive_all",
+      "i_total_all",
+      "i_positive_all",
+      "ui_total_all",
+      "ui_positive_all",
+      "ua_total_all",
+      "ua_positive_all",
+      "u_positive_rate_all",
+      "i_positive_rate_all",
+      "ui_positive_rate_all",
+      "ua_positive_rate_all",
+      "ui_share_all",
+      "ua_share_all",
+      "u_age_hours",
+      "i_age_hours",
+      "ui_age_hours",
+      "ua_age_hours",
+      "user_id_cat",
+      "item_id_cat",
+      "artist_cat"
+    ]
+  },
+  "raw": {
+    "method": "raw",
+    "depth": 5,
+    "ndcg@10": 0.21994748451377266,
+    "iterations": 600,
+    "trajectory": [
+      {
+        "iterations": 25,
+        "ndcg@10": 0.1933237862389219
+      },
+      {
+        "iterations": 50,
+        "ndcg@10": 0.1988367052365097
+      },
+      {
+        "iterations": 75,
+        "ndcg@10": 0.20256733872615282
+      },
+      {
+        "iterations": 100,
+        "ndcg@10": 0.20498189017194826
+      },
+      {
+        "iterations": 125,
+        "ndcg@10": 0.2081196439676348
+      },
+      {
+        "iterations": 150,
+        "ndcg@10": 0.20889425056032926
+      },
+      {
+        "iterations": 175,
+        "ndcg@10": 0.21081343842499653
+      },
+      {
+        "iterations": 200,
+        "ndcg@10": 0.21106545967645204
+      },
+      {
+        "iterations": 225,
+        "ndcg@10": 0.2121915101656401
+      },
+      {
+        "iterations": 250,
+        "ndcg@10": 0.2135135975179523
+      },
+      {
+        "iterations": 275,
+        "ndcg@10": 0.21484797596221306
+      },
+      {
+        "iterations": 300,
+        "ndcg@10": 0.21521798884774143
+      },
+      {
+        "iterations": 325,
+        "ndcg@10": 0.21666172126078498
+      },
+      {
+        "iterations": 350,
+        "ndcg@10": 0.21755921656234614
+      },
+      {
+        "iterations": 375,
+        "ndcg@10": 0.21859475373805068
+      },
+      {
+        "iterations": 400,
+        "ndcg@10": 0.2185203301937104
+      },
+      {
+        "iterations": 425,
+        "ndcg@10": 0.21797297636951063
+      },
+      {
+        "iterations": 450,
+        "ndcg@10": 0.2182743653230646
+      },
+      {
+        "iterations": 475,
+        "ndcg@10": 0.2180690136576924
+      },
+      {
+        "iterations": 500,
+        "ndcg@10": 0.2182221354572175
+      },
+      {
+        "iterations": 525,
+        "ndcg@10": 0.21833094513204349
+      },
+      {
+        "iterations": 550,
+        "ndcg@10": 0.21912805546746225
+      },
+      {
+        "iterations": 575,
+        "ndcg@10": 0.21923455595030336
+      },
+      {
+        "iterations": 600,
+        "ndcg@10": 0.21994748451377266
+      }
+    ],
+    "features": 72,
+    "columns": [
+      "repeat_score",
+      "pop_score",
+      "knn_score",
+      "artist_score",
+      "retrieval_rrf",
+      "retrieval_rank",
+      "u_total_1",
+      "u_positive_1",
+      "i_total_1",
+      "i_positive_1",
+      "ui_total_1",
+      "ui_positive_1",
+      "ua_total_1",
+      "ua_positive_1",
+      "u_positive_rate_1",
+      "i_positive_rate_1",
+      "ui_positive_rate_1",
+      "ua_positive_rate_1",
+      "ui_share_1",
+      "ua_share_1",
+      "u_total_7",
+      "u_positive_7",
+      "i_total_7",
+      "i_positive_7",
+      "ui_total_7",
+      "ui_positive_7",
+      "ua_total_7",
+      "ua_positive_7",
+      "u_positive_rate_7",
+      "i_positive_rate_7",
+      "ui_positive_rate_7",
+      "ua_positive_rate_7",
+      "ui_share_7",
+      "ua_share_7",
+      "u_total_30",
+      "u_positive_30",
+      "i_total_30",
+      "i_positive_30",
+      "ui_total_30",
+      "ui_positive_30",
+      "ua_total_30",
+      "ua_positive_30",
+      "u_positive_rate_30",
+      "i_positive_rate_30",
+      "ui_positive_rate_30",
+      "ua_positive_rate_30",
+      "ui_share_30",
+      "ua_share_30",
+      "u_total_all",
+      "u_positive_all",
+      "i_total_all",
+      "i_positive_all",
+      "ui_total_all",
+      "ui_positive_all",
+      "ua_total_all",
+      "ua_positive_all",
+      "u_positive_rate_all",
+      "i_positive_rate_all",
+      "ui_positive_rate_all",
+      "ua_positive_rate_all",
+      "ui_share_all",
+      "ua_share_all",
+      "u_age_hours",
+      "i_age_hours",
+      "ui_age_hours",
+      "ua_age_hours",
+      "user_id_cat",
+      "item_id_cat",
+      "artist_cat",
+      "raw_h1",
+      "raw_h24",
+      "raw_h168"
+    ]
+  },
+  "signed": {
+    "method": "signed",
+    "depth": 5,
+    "ndcg@10": 0.22050154494459762,
+    "iterations": 600,
+    "trajectory": [
+      {
+        "iterations": 25,
+        "ndcg@10": 0.1933237862389219
+      },
+      {
+        "iterations": 50,
+        "ndcg@10": 0.1988367052365097
+      },
+      {
+        "iterations": 75,
+        "ndcg@10": 0.2016580647336922
+      },
+      {
+        "iterations": 100,
+        "ndcg@10": 0.20455324728965857
+      },
+      {
+        "iterations": 125,
+        "ndcg@10": 0.20725061469692013
+      },
+      {
+        "iterations": 150,
+        "ndcg@10": 0.2090012404489386
+      },
+      {
+        "iterations": 175,
+        "ndcg@10": 0.2125807005393647
+      },
+      {
+        "iterations": 200,
+        "ndcg@10": 0.21377366613450677
+      },
+      {
+        "iterations": 225,
+        "ndcg@10": 0.21504167958915973
+      },
+      {
+        "iterations": 250,
+        "ndcg@10": 0.21573117190526492
+      },
+      {
+        "iterations": 275,
+        "ndcg@10": 0.21610833378772243
+      },
+      {
+        "iterations": 300,
+        "ndcg@10": 0.21626168793127548
+      },
+      {
+        "iterations": 325,
+        "ndcg@10": 0.21773426924179673
+      },
+      {
+        "iterations": 350,
+        "ndcg@10": 0.21756040357242412
+      },
+      {
+        "iterations": 375,
+        "ndcg@10": 0.21822055183294556
+      },
+      {
+        "iterations": 400,
+        "ndcg@10": 0.21853749070819778
+      },
+      {
+        "iterations": 425,
+        "ndcg@10": 0.21933570472753722
+      },
+      {
+        "iterations": 450,
+        "ndcg@10": 0.2191662201856828
+      },
+      {
+        "iterations": 475,
+        "ndcg@10": 0.21876539570965683
+      },
+      {
+        "iterations": 500,
+        "ndcg@10": 0.21963178928009747
+      },
+      {
+        "iterations": 525,
+        "ndcg@10": 0.21938282568253029
+      },
+      {
+        "iterations": 550,
+        "ndcg@10": 0.21958757106878038
+      },
+      {
+        "iterations": 575,
+        "ndcg@10": 0.22032860890310493
+      },
+      {
+        "iterations": 600,
+        "ndcg@10": 0.22050154494459762
+      }
+    ],
+    "features": 72,
+    "columns": [
+      "repeat_score",
+      "pop_score",
+      "knn_score",
+      "artist_score",
+      "retrieval_rrf",
+      "retrieval_rank",
+      "u_total_1",
+      "u_positive_1",
+      "i_total_1",
+      "i_positive_1",
+      "ui_total_1",
+      "ui_positive_1",
+      "ua_total_1",
+      "ua_positive_1",
+      "u_positive_rate_1",
+      "i_positive_rate_1",
+      "ui_positive_rate_1",
+      "ua_positive_rate_1",
+      "ui_share_1",
+      "ua_share_1",
+      "u_total_7",
+      "u_positive_7",
+      "i_total_7",
+      "i_positive_7",
+      "ui_total_7",
+      "ui_positive_7",
+      "ua_total_7",
+      "ua_positive_7",
+      "u_positive_rate_7",
+      "i_positive_rate_7",
+      "ui_positive_rate_7",
+      "ua_positive_rate_7",
+      "ui_share_7",
+      "ua_share_7",
+      "u_total_30",
+      "u_positive_30",
+      "i_total_30",
+      "i_positive_30",
+      "ui_total_30",
+      "ui_positive_30",
+      "ua_total_30",
+      "ua_positive_30",
+      "u_positive_rate_30",
+      "i_positive_rate_30",
+      "ui_positive_rate_30",
+      "ua_positive_rate_30",
+      "ui_share_30",
+      "ua_share_30",
+      "u_total_all",
+      "u_positive_all",
+      "i_total_all",
+      "i_positive_all",
+      "ui_total_all",
+      "ui_positive_all",
+      "ua_total_all",
+      "ua_positive_all",
+      "u_positive_rate_all",
+      "i_positive_rate_all",
+      "ui_positive_rate_all",
+      "ua_positive_rate_all",
+      "ui_share_all",
+      "ua_share_all",
+      "u_age_hours",
+      "i_age_hours",
+      "ui_age_hours",
+      "ua_age_hours",
+      "user_id_cat",
+      "item_id_cat",
+      "artist_cat",
+      "signed_h1",
+      "signed_h24",
+      "signed_h168"
+    ]
+  },
+  "global": {
+    "method": "global",
+    "depth": 7,
+    "ndcg@10": 0.22056413090082322,
+    "iterations": 550,
+    "trajectory": [
+      {
+        "iterations": 25,
+        "ndcg@10": 0.19599734036159083
+      },
+      {
+        "iterations": 50,
+        "ndcg@10": 0.1966719587821856
+      },
+      {
+        "iterations": 75,
+        "ndcg@10": 0.19898191621379835
+      },
+      {
+        "iterations": 100,
+        "ndcg@10": 0.20082413623305234
+      },
+      {
+        "iterations": 125,
+        "ndcg@10": 0.20506114961218339
+      },
+      {
+        "iterations": 150,
+        "ndcg@10": 0.20433920070307515
+      },
+      {
+        "iterations": 175,
+        "ndcg@10": 0.20656958380527926
+      },
+      {
+        "iterations": 200,
+        "ndcg@10": 0.20819461374681691
+      },
+      {
+        "iterations": 225,
+        "ndcg@10": 0.20864232584743742
+      },
+      {
+        "iterations": 250,
+        "ndcg@10": 0.2121669367436457
+      },
+      {
+        "iterations": 275,
+        "ndcg@10": 0.21340218563727725
+      },
+      {
+        "iterations": 300,
+        "ndcg@10": 0.2141507281685503
+      },
+      {
+        "iterations": 325,
+        "ndcg@10": 0.21464242919561788
+      },
+      {
+        "iterations": 350,
+        "ndcg@10": 0.21570335357869713
+      },
+      {
+        "iterations": 375,
+        "ndcg@10": 0.21666696383814965
+      },
+      {
+        "iterations": 400,
+        "ndcg@10": 0.2177018665112746
+      },
+      {
+        "iterations": 425,
+        "ndcg@10": 0.2187842173335802
+      },
+      {
+        "iterations": 450,
+        "ndcg@10": 0.21864930960227358
+      },
+      {
+        "iterations": 475,
+        "ndcg@10": 0.21999000261430443
+      },
+      {
+        "iterations": 500,
+        "ndcg@10": 0.22016662863891284
+      },
+      {
+        "iterations": 525,
+        "ndcg@10": 0.22044932760207964
+      },
+      {
+        "iterations": 550,
+        "ndcg@10": 0.22056413090082322
+      },
+      {
+        "iterations": 575,
+        "ndcg@10": 0.21993808600573106
+      },
+      {
+        "iterations": 600,
+        "ndcg@10": 0.21999734849018016
+      }
+    ],
+    "features": 72,
+    "columns": [
+      "repeat_score",
+      "pop_score",
+      "knn_score",
+      "artist_score",
+      "retrieval_rrf",
+      "retrieval_rank",
+      "u_total_1",
+      "u_positive_1",
+      "i_total_1",
+      "i_positive_1",
+      "ui_total_1",
+      "ui_positive_1",
+      "ua_total_1",
+      "ua_positive_1",
+      "u_positive_rate_1",
+      "i_positive_rate_1",
+      "ui_positive_rate_1",
+      "ua_positive_rate_1",
+      "ui_share_1",
+      "ua_share_1",
+      "u_total_7",
+      "u_positive_7",
+      "i_total_7",
+      "i_positive_7",
+      "ui_total_7",
+      "ui_positive_7",
+      "ua_total_7",
+      "ua_positive_7",
+      "u_positive_rate_7",
+      "i_positive_rate_7",
+      "ui_positive_rate_7",
+      "ua_positive_rate_7",
+      "ui_share_7",
+      "ua_share_7",
+      "u_total_30",
+      "u_positive_30",
+      "i_total_30",
+      "i_positive_30",
+      "ui_total_30",
+      "ui_positive_30",
+      "ua_total_30",
+      "ua_positive_30",
+      "u_positive_rate_30",
+      "i_positive_rate_30",
+      "ui_positive_rate_30",
+      "ua_positive_rate_30",
+      "ui_share_30",
+      "ua_share_30",
+      "u_total_all",
+      "u_positive_all",
+      "i_total_all",
+      "i_positive_all",
+      "ui_total_all",
+      "ui_positive_all",
+      "ua_total_all",
+      "ua_positive_all",
+      "u_positive_rate_all",
+      "i_positive_rate_all",
+      "ui_positive_rate_all",
+      "ua_positive_rate_all",
+      "ui_share_all",
+      "ua_share_all",
+      "u_age_hours",
+      "i_age_hours",
+      "ui_age_hours",
+      "ua_age_hours",
+      "user_id_cat",
+      "item_id_cat",
+      "artist_cat",
+      "global_h1",
+      "global_h24",
+      "global_h168"
+    ]
+  },
+  "conditional": {
+    "method": "conditional",
+    "depth": 7,
+    "ndcg@10": 0.22077723808730765,
+    "iterations": 575,
+    "trajectory": [
+      {
+        "iterations": 25,
+        "ndcg@10": 0.19599734036159083
+      },
+      {
+        "iterations": 50,
+        "ndcg@10": 0.1966719587821856
+      },
+      {
+        "iterations": 75,
+        "ndcg@10": 0.19898191621379835
+      },
+      {
+        "iterations": 100,
+        "ndcg@10": 0.20082413623305234
+      },
+      {
+        "iterations": 125,
+        "ndcg@10": 0.20506114961218339
+      },
+      {
+        "iterations": 150,
+        "ndcg@10": 0.2056029244875228
+      },
+      {
+        "iterations": 175,
+        "ndcg@10": 0.20865575897654148
+      },
+      {
+        "iterations": 200,
+        "ndcg@10": 0.20967179902661925
+      },
+      {
+        "iterations": 225,
+        "ndcg@10": 0.2108225785743516
+      },
+      {
+        "iterations": 250,
+        "ndcg@10": 0.21072006341059582
+      },
+      {
+        "iterations": 275,
+        "ndcg@10": 0.21395177436488041
+      },
+      {
+        "iterations": 300,
+        "ndcg@10": 0.2145725020864222
+      },
+      {
+        "iterations": 325,
+        "ndcg@10": 0.21592819785792022
+      },
+      {
+        "iterations": 350,
+        "ndcg@10": 0.21587001277569534
+      },
+      {
+        "iterations": 375,
+        "ndcg@10": 0.21582950596268555
+      },
+      {
+        "iterations": 400,
+        "ndcg@10": 0.21682370726877304
+      },
+      {
+        "iterations": 425,
+        "ndcg@10": 0.2178591410424181
+      },
+      {
+        "iterations": 450,
+        "ndcg@10": 0.21907172604333483
+      },
+      {
+        "iterations": 475,
+        "ndcg@10": 0.2192102782468085
+      },
+      {
+        "iterations": 500,
+        "ndcg@10": 0.21952246145072954
+      },
+      {
+        "iterations": 525,
+        "ndcg@10": 0.21987988672795483
+      },
+      {
+        "iterations": 550,
+        "ndcg@10": 0.2207380452656881
+      },
+      {
+        "iterations": 575,
+        "ndcg@10": 0.22077723808730765
+      },
+      {
+        "iterations": 600,
+        "ndcg@10": 0.2206716454469982
+      }
+    ],
+    "features": 72,
+    "columns": [
+      "repeat_score",
+      "pop_score",
+      "knn_score",
+      "artist_score",
+      "retrieval_rrf",
+      "retrieval_rank",
+      "u_total_1",
+      "u_positive_1",
+      "i_total_1",
+      "i_positive_1",
+      "ui_total_1",
+      "ui_positive_1",
+      "ua_total_1",
+      "ua_positive_1",
+      "u_positive_rate_1",
+      "i_positive_rate_1",
+      "ui_positive_rate_1",
+      "ua_positive_rate_1",
+      "ui_share_1",
+      "ua_share_1",
+      "u_total_7",
+      "u_positive_7",
+      "i_total_7",
+      "i_positive_7",
+      "ui_total_7",
+      "ui_positive_7",
+      "ua_total_7",
+      "ua_positive_7",
+      "u_positive_rate_7",
+      "i_positive_rate_7",
+      "ui_positive_rate_7",
+      "ua_positive_rate_7",
+      "ui_share_7",
+      "ua_share_7",
+      "u_total_30",
+      "u_positive_30",
+      "i_total_30",
+      "i_positive_30",
+      "ui_total_30",
+      "ui_positive_30",
+      "ua_total_30",
+      "ua_positive_30",
+      "u_positive_rate_30",
+      "i_positive_rate_30",
+      "ui_positive_rate_30",
+      "ua_positive_rate_30",
+      "ui_share_30",
+      "ua_share_30",
+      "u_total_all",
+      "u_positive_all",
+      "i_total_all",
+      "i_positive_all",
+      "ui_total_all",
+      "ui_positive_all",
+      "ua_total_all",
+      "ua_positive_all",
+      "u_positive_rate_all",
+      "i_positive_rate_all",
+      "ui_positive_rate_all",
+      "ua_positive_rate_all",
+      "ui_share_all",
+      "ua_share_all",
+      "u_age_hours",
+      "i_age_hours",
+      "ui_age_hours",
+      "ua_age_hours",
+      "user_id_cat",
+      "item_id_cat",
+      "artist_cat",
+      "conditional_h1",
+      "conditional_h24",
+      "conditional_h168"
+    ]
+  },
+  "all": {
+    "method": "all",
+    "depth": 5,
+    "ndcg@10": 0.2206365578701498,
+    "iterations": 600,
+    "trajectory": [
+      {
+        "iterations": 25,
+        "ndcg@10": 0.19744650352190082
+      },
+      {
+        "iterations": 50,
+        "ndcg@10": 0.19888276631562024
+      },
+      {
+        "iterations": 75,
+        "ndcg@10": 0.20331573703955746
+      },
+      {
+        "iterations": 100,
+        "ndcg@10": 0.2072425641704262
+      },
+      {
+        "iterations": 125,
+        "ndcg@10": 0.20770856593292733
+      },
+      {
+        "iterations": 150,
+        "ndcg@10": 0.21031370329917265
+      },
+      {
+        "iterations": 175,
+        "ndcg@10": 0.21306326783340293
+      },
+      {
+        "iterations": 200,
+        "ndcg@10": 0.21332758458577003
+      },
+      {
+        "iterations": 225,
+        "ndcg@10": 0.21365880258386732
+      },
+      {
+        "iterations": 250,
+        "ndcg@10": 0.21483163206047098
+      },
+      {
+        "iterations": 275,
+        "ndcg@10": 0.2149203974073063
+      },
+      {
+        "iterations": 300,
+        "ndcg@10": 0.21598756519523019
+      },
+      {
+        "iterations": 325,
+        "ndcg@10": 0.21706574786067628
+      },
+      {
+        "iterations": 350,
+        "ndcg@10": 0.21748018796393143
+      },
+      {
+        "iterations": 375,
+        "ndcg@10": 0.21811126381665483
+      },
+      {
+        "iterations": 400,
+        "ndcg@10": 0.21885068567978364
+      },
+      {
+        "iterations": 425,
+        "ndcg@10": 0.21922865830384874
+      },
+      {
+        "iterations": 450,
+        "ndcg@10": 0.21889744221745078
+      },
+      {
+        "iterations": 475,
+        "ndcg@10": 0.21876146382472755
+      },
+      {
+        "iterations": 500,
+        "ndcg@10": 0.21913208103516443
+      },
+      {
+        "iterations": 525,
+        "ndcg@10": 0.2196989109199952
+      },
+      {
+        "iterations": 550,
+        "ndcg@10": 0.21976420545985076
+      },
+      {
+        "iterations": 575,
+        "ndcg@10": 0.21967240918287734
+      },
+      {
+        "iterations": 600,
+        "ndcg@10": 0.2206365578701498
+      }
+    ],
+    "features": 81,
+    "columns": [
+      "repeat_score",
+      "pop_score",
+      "knn_score",
+      "artist_score",
+      "retrieval_rrf",
+      "retrieval_rank",
+      "u_total_1",
+      "u_positive_1",
+      "i_total_1",
+      "i_positive_1",
+      "ui_total_1",
+      "ui_positive_1",
+      "ua_total_1",
+      "ua_positive_1",
+      "u_positive_rate_1",
+      "i_positive_rate_1",
+      "ui_positive_rate_1",
+      "ua_positive_rate_1",
+      "ui_share_1",
+      "ua_share_1",
+      "u_total_7",
+      "u_positive_7",
+      "i_total_7",
+      "i_positive_7",
+      "ui_total_7",
+      "ui_positive_7",
+      "ua_total_7",
+      "ua_positive_7",
+      "u_positive_rate_7",
+      "i_positive_rate_7",
+      "ui_positive_rate_7",
+      "ua_positive_rate_7",
+      "ui_share_7",
+      "ua_share_7",
+      "u_total_30",
+      "u_positive_30",
+      "i_total_30",
+      "i_positive_30",
+      "ui_total_30",
+      "ui_positive_30",
+      "ua_total_30",
+      "ua_positive_30",
+      "u_positive_rate_30",
+      "i_positive_rate_30",
+      "ui_positive_rate_30",
+      "ua_positive_rate_30",
+      "ui_share_30",
+      "ua_share_30",
+      "u_total_all",
+      "u_positive_all",
+      "i_total_all",
+      "i_positive_all",
+      "ui_total_all",
+      "ui_positive_all",
+      "ua_total_all",
+      "ua_positive_all",
+      "u_positive_rate_all",
+      "i_positive_rate_all",
+      "ui_positive_rate_all",
+      "ua_positive_rate_all",
+      "ui_share_all",
+      "ua_share_all",
+      "u_age_hours",
+      "i_age_hours",
+      "ui_age_hours",
+      "ua_age_hours",
+      "user_id_cat",
+      "item_id_cat",
+      "artist_cat",
+      "raw_h1",
+      "raw_h24",
+      "raw_h168",
+      "signed_h1",
+      "signed_h24",
+      "signed_h168",
+      "global_h1",
+      "global_h24",
+      "global_h168",
+      "conditional_h1",
+      "conditional_h24",
+      "conditional_h168"
+    ]
+  },
+  "selected_by_search": "manual",
+  "primary": {
+    "first": "global",
+    "second": "conditional"
+  },
+  "protocol_sha256": "2e25487b523775549a68f347fbc26b1bbb03fb15350c67ba870e77f1d4e70a80",
+  "external_labels_used": false
+}

@@ -1,0 +1,27 @@
+{
+  "protocol_sha256": "c01369fbb9df35ccd6cc6d39c5cebe356d0e2bf1b26ab494a16ee928e077c2ff",
+  "sample_sha256": "8358569ec582c3ea2bc1c312966a6b3bd739abc19c0eccc12ad65bbf59c3fc02",
+  "source_manifest_sha256": "23d70b6171e9b8681cad643eafb7d53ea9f70e75820718991f96dde8f4079c45",
+  "train": [
+    286,
+    288,
+    290,
+    292
+  ],
+  "search": 294,
+  "confirm": 296,
+  "test": [
+    298,
+    299
+  ],
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "primary": [
+    "global",
+    "conditional"
+  ],
+  "test_targets_constructed": false
+}

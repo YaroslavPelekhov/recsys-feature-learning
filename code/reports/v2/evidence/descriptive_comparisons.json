@@ -1,0 +1,47 @@
+[
+  {
+    "first": "popularity",
+    "second": "hybrid",
+    "result": {
+      "metric": "ndcg",
+      "difference_b_minus_a": 0.0003313999186087163,
+      "ci95": [
+        -0.004908063254531157,
+        0.005454839659509215
+      ],
+      "users": 834,
+      "resamples": 3000,
+      "seed": 314159
+    }
+  },
+  {
+    "first": "global_mix",
+    "second": "adaptive_mix",
+    "result": {
+      "metric": "ndcg",
+      "difference_b_minus_a": 0.00305198775957302,
+      "ci95": [
+        0.0004540654790783382,
+        0.005754722034010399
+      ],
+      "users": 834,
+      "resamples": 3000,
+      "seed": 314159
+    }
+  },
+  {
+    "first": "manual_original_pool",
+    "second": "hybrid_original_pool",
+    "result": {
+      "metric": "ndcg",
+      "difference_b_minus_a": 0.004650867121856209,
+      "ci95": [
+        0.0013332055882358741,
+        0.008399854240158834
+      ],
+      "users": 834,
+      "resamples": 3000,
+      "seed": 314159
+    }
+  }
+]

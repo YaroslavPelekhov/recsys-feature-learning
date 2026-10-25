@@ -1,0 +1,22 @@
+{
+  "document_sha256": "41911f9b416279a0b5262ab2d43def3bcd2ab49298a635d4242623a54d325b64",
+  "sample_sha256": "84e7cf106f93f758b538265c8dbed3d803c46fa28fc6c2265089bc189a609216",
+  "events_sha256": "da808da2a92637dfb81b2bb5b4e2b1765dc04af7b9f75b7059787cb75e326412",
+  "source_manifest_sha256": "23d70b6171e9b8681cad643eafb7d53ea9f70e75820718991f96dde8f4079c45",
+  "primary": [
+    "G0",
+    "A1"
+  ],
+  "test_targets_constructed": false,
+  "test": [
+    298,
+    299
+  ],
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "half_life_hours": 24,
+  "external_kind": "disjoint user cohort, same anonymous period"
+}

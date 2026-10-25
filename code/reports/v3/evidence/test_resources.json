@@ -1,0 +1,102 @@
+[
+  {
+    "stage": "test/prepare/day298",
+    "seconds": 106.94383890000245,
+    "peak_process_rss_mb": 4231.40625
+  },
+  {
+    "stage": "test/prepare/day299",
+    "seconds": 84.55250040000101,
+    "peak_process_rss_mb": 4436.953125
+  },
+  {
+    "stage": "test/raw/17",
+    "seconds": 278.8988610999986,
+    "peak_process_rss_mb": 2716.984375
+  },
+  {
+    "stage": "test/signed/17",
+    "seconds": 275.6672531000004,
+    "peak_process_rss_mb": 2715.13671875
+  },
+  {
+    "stage": "test/manual/17",
+    "seconds": 300.503607300001,
+    "peak_process_rss_mb": 2809.7890625
+  },
+  {
+    "stage": "test/global/17",
+    "seconds": 299.4365584999978,
+    "peak_process_rss_mb": 3422.32421875
+  },
+  {
+    "stage": "test/conditional/17",
+    "seconds": 310.80328839999856,
+    "peak_process_rss_mb": 3293.73046875
+  },
+  {
+    "stage": "test/all/17",
+    "seconds": 273.3105809000008,
+    "peak_process_rss_mb": 3499.6171875
+  },
+  {
+    "stage": "test/manual/42",
+    "seconds": 296.6228384999995,
+    "peak_process_rss_mb": 3541.1015625
+  },
+  {
+    "stage": "test/raw/42",
+    "seconds": 274.0232262000027,
+    "peak_process_rss_mb": 3502.52734375
+  },
+  {
+    "stage": "test/signed/42",
+    "seconds": 274.54440570000224,
+    "peak_process_rss_mb": 3334.46875
+  },
+  {
+    "stage": "test/global/42",
+    "seconds": 305.72060259999853,
+    "peak_process_rss_mb": 3649.99609375
+  },
+  {
+    "stage": "test/conditional/42",
+    "seconds": 317.59315100000094,
+    "peak_process_rss_mb": 3626.40625
+  },
+  {
+    "stage": "test/all/42",
+    "seconds": 272.7393281000004,
+    "peak_process_rss_mb": 3862.71484375
+  },
+  {
+    "stage": "test/manual/73",
+    "seconds": 298.1318424000019,
+    "peak_process_rss_mb": 3512.41796875
+  },
+  {
+    "stage": "test/raw/73",
+    "seconds": 273.81846340000266,
+    "peak_process_rss_mb": 3836.15625
+  },
+  {
+    "stage": "test/signed/73",
+    "seconds": 274.27388789999895,
+    "peak_process_rss_mb": 3695.328125
+  },
+  {
+    "stage": "test/global/73",
+    "seconds": 298.88566130000254,
+    "peak_process_rss_mb": 3880.71875
+  },
+  {
+    "stage": "test/conditional/73",
+    "seconds": 311.6734480999985,
+    "peak_process_rss_mb": 3730.4921875
+  },
+  {
+    "stage": "test/all/73",
+    "seconds": 262.46016729999974,
+    "peak_process_rss_mb": 3908.1484375
+  }
+]

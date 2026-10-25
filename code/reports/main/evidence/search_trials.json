@@ -1,0 +1,122 @@
+[
+  {
+    "trial": "manual_depth5",
+    "ndcg": 0.1453232794303345,
+    "iterations": 350,
+    "depth": 5,
+    "features": 71,
+    "seconds": 23.462762099999964
+  },
+  {
+    "trial": "manual_depth7",
+    "ndcg": 0.14766204874616012,
+    "iterations": 350,
+    "depth": 7,
+    "features": 71,
+    "seconds": 28.043799600000057
+  },
+  {
+    "trial": "step1/window2",
+    "ndcg": 0.14660438843106516,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 26.48622739999996
+  },
+  {
+    "trial": "step1/window3",
+    "ndcg": 0.14687018810031743,
+    "iterations": 325,
+    "depth": 7,
+    "features": 86,
+    "seconds": 25.49793109999996
+  },
+  {
+    "trial": "step1/window5",
+    "ndcg": 0.14657899147140507,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 25.503497700000025
+  },
+  {
+    "trial": "step1/window10",
+    "ndcg": 0.14607223601931596,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 25.556044799999654
+  },
+  {
+    "trial": "step1/window14",
+    "ndcg": 0.14578281095721948,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 25.91511249999985
+  },
+  {
+    "trial": "step1/window21",
+    "ndcg": 0.14565545782518655,
+    "iterations": 350,
+    "depth": 7,
+    "features": 86,
+    "seconds": 25.53977199999963
+  },
+  {
+    "trial": "step1/window45",
+    "ndcg": 0.1475380968172479,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 26.24844529999973
+  },
+  {
+    "trial": "step1/window60",
+    "ndcg": 0.14582259657034388,
+    "iterations": 350,
+    "depth": 7,
+    "features": 86,
+    "seconds": 25.947006699999747
+  },
+  {
+    "trial": "step1/decay3",
+    "ndcg": 0.147046843023548,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 26.808851599999798
+  },
+  {
+    "trial": "step1/decay10",
+    "ndcg": 0.14737830646960287,
+    "iterations": 350,
+    "depth": 7,
+    "features": 86,
+    "seconds": 26.643572999999833
+  },
+  {
+    "trial": "step1/decay30",
+    "ndcg": 0.14523321835290395,
+    "iterations": 300,
+    "depth": 7,
+    "features": 86,
+    "seconds": 27.081386400000156
+  },
+  {
+    "trial": "all_features",
+    "ndcg": 0.14690916287817046,
+    "iterations": 350,
+    "depth": 7,
+    "features": 236,
+    "seconds": 35.70506550000027
+  },
+  {
+    "trial": "manual_without_relational_aggregates",
+    "ndcg": 0.14288979535534863,
+    "iterations": 325,
+    "depth": 7,
+    "features": 35,
+    "seconds": 27.64461089999986
+  }
+]

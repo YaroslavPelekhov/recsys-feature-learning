@@ -1,0 +1,8 @@
+{
+  "change": "dependency barrier before constructing held-out targets; preserve completed job timings on resume",
+  "old_orchestrator_sha256": "ea7906ebdc0260f226a692ff0f47bf9ca873247885a9b3683daa1bace69a34ef",
+  "new_orchestrator_sha256": "e62377106d9452cb8850d73d02fd431a198eb5a51a19c3c06308dbc0917faa61",
+  "recipe_sha256": "71d7c6355ca0ba7fc354ffc5735cf8ba487ad81bd0412906e42a647429330460",
+  "test_targets_exist": false,
+  "numerical_model_and_training_inputs_changed": false
+}

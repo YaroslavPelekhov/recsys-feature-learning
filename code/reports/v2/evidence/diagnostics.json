@@ -1,0 +1,10 @@
+{
+  "sampled_external_users": 10000,
+  "scored_warm_users": 5185,
+  "scored_pairs": 920409,
+  "evaluated_warm_active_users": 834,
+  "target_rows": 2228,
+  "candidate_recall": 0.6107367101100104,
+  "oracle_ndcg": 0.6550428223382581,
+  "cold_item_targets": 261
+}

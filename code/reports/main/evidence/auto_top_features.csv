@@ -1,0 +1,16 @@
+feature,importance
+retrieval_rrf,12.054312250268424
+retrieval_rank,8.608039832559973
+item_share_window7,7.209320060992752
+item_velocity_7,6.939431253577818
+retrieval_cf,5.920795901101765
+ui_countries_share_all,5.842259139274835
+item_count_window7,5.243813636194595
+ui_content_type_share_all,4.643742651615465
+item_age_max,3.0845584835906634
+ui_content_type_share_window30,2.9568422444938647
+ui_countries_max_all,2.1105654615195273
+ui_countries_max_window30,2.1003598952616747
+retrieval_pop,2.0173127894226695
+ui_countries_share_window30,1.9572102827974414
+ui_countries_sum_window30,1.8638413107870264

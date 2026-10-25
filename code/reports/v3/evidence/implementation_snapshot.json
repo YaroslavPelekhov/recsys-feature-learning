@@ -1,0 +1,8 @@
+{
+  "pyproject.toml": "2c95730e68dd071b588d99394b70a2cad4cd062eaa3886d5208c4d5fdb8692a9",
+  "uv.lock": "4de7a6a1f83bb5dae6c1b0fe95127fb45cd316b724f75bdfad28b9913eb4ec2e",
+  "src/rec/transition.py": "218c1368c6927e15a02b9ae01ed7c8952ac001c885415ab6996197482b78c261",
+  "src/rec/music.py": "0f69bb14f65e95d231c210704260fabbf8401ba13d52a458ddf303d3b7bdd13c",
+  "scripts/research_v3.py": "2bb969e4fa6b5e3b1718a0251cb911e460bce52d8fb933c37fd7543f725c58f2",
+  "runs/v3/sampled_events.parquet": "97907503099734be86c7f8ae72edd5dfbcb1bfd919df81febfedcde02f6ca4f4"
+}

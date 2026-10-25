@@ -1,0 +1,29 @@
+{
+  "scope": "search snapshot only, top50 historical source items, self excluded, top10 targets",
+  "summary": [
+    {
+      "method": "conditional",
+      "pairs": 500,
+      "same_artist_share": 0.012,
+      "outside_context_support_share": 0.168,
+      "mean_observed_count": 2.578,
+      "mean_expected_count": 0.1649579788664961
+    },
+    {
+      "method": "global",
+      "pairs": 500,
+      "same_artist_share": 0.1,
+      "outside_context_support_share": 0.024,
+      "mean_observed_count": 6.5,
+      "mean_expected_count": 1.3432361624511584
+    },
+    {
+      "method": "mixture",
+      "pairs": 500,
+      "same_artist_share": 0.024,
+      "outside_context_support_share": 0.082,
+      "mean_observed_count": 4.458,
+      "mean_expected_count": 0.4011461047725205
+    }
+  ]
+}

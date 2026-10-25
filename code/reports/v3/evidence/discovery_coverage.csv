@@ -1,0 +1,3 @@
+day,evaluated_users,novel_target_users,novel_targets,reachable_novel_targets,candidate_novel_pair_share,novel_candidate_recall_user_macro
+298,503,361,4237,183,0.5432074221338635,0.06508903206195785
+299,500,372,4725,235,0.5480666666666667,0.07141828251846313

@@ -1,0 +1,50 @@
+{
+  "config": {
+    "n_users": 10000,
+    "sample_seed": 2026,
+    "model_seeds": [
+      17,
+      42,
+      73
+    ],
+    "horizon_days": 7,
+    "train_snapshots": 4,
+    "candidates": 120,
+    "retrieval_per_source": 80,
+    "neighbors": 50,
+    "max_history": 50,
+    "iterations": 600,
+    "depths": [
+      5,
+      7
+    ],
+    "learning_rate": 0.05,
+    "threads": 12,
+    "search_steps": 2,
+    "search_windows": [],
+    "search_half_lives": [],
+    "min_gain": 0.0005,
+    "bootstrap_samples": 3000,
+    "k": 10
+  },
+  "dev_dates": [
+    "2021-06-28",
+    "2021-07-05",
+    "2021-07-12",
+    "2021-07-19",
+    "2021-07-26",
+    "2021-08-02",
+    "2021-08-09",
+    "2021-08-16"
+  ],
+  "external_dates": [
+    "2021-05-17",
+    "2021-05-24",
+    "2021-05-31",
+    "2021-06-07",
+    "2021-06-14",
+    "2021-06-21"
+  ],
+  "external_user_manifest_sha256": "38bbfd8c1ffc1aaefd558f2145353558cfa8a667e76f8a50818dc45b04153161",
+  "protocol_sha256": "a898efb53e1c80a46b49374ea0b011362778b94b3b1ae83fa3b9b00cc33ca41f"
+}

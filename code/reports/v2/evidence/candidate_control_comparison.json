@@ -1,0 +1,14 @@
+[
+  {
+    "contrast": "hybrid − manual, original 120, seed 17",
+    "metric": "ndcg",
+    "difference_b_minus_a": 0.004650867121856209,
+    "ci95": [
+      0.0013332055882358741,
+      0.008399854240158834
+    ],
+    "users": 834,
+    "resamples": 3000,
+    "seed": 314159
+  }
+]

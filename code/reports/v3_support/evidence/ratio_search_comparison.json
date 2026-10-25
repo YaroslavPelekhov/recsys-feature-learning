@@ -1,0 +1,47 @@
+[
+  {
+    "encoder": "global",
+    "half_life_hours": 1,
+    "NDCG@10": 0.0751352508044736
+  },
+  {
+    "encoder": "global",
+    "half_life_hours": 24,
+    "NDCG@10": 0.07930535026975115
+  },
+  {
+    "encoder": "global",
+    "half_life_hours": 168,
+    "NDCG@10": 0.07780814439381067
+  },
+  {
+    "encoder": "conditional",
+    "half_life_hours": 1,
+    "NDCG@10": 0.010768668798681201
+  },
+  {
+    "encoder": "conditional",
+    "half_life_hours": 24,
+    "NDCG@10": 0.002168441022054523
+  },
+  {
+    "encoder": "conditional",
+    "half_life_hours": 168,
+    "NDCG@10": 0.003568456580747023
+  },
+  {
+    "encoder": "mixture",
+    "half_life_hours": 1,
+    "NDCG@10": 0.02754358982538247
+  },
+  {
+    "encoder": "mixture",
+    "half_life_hours": 24,
+    "NDCG@10": 0.018156648251353963
+  },
+  {
+    "encoder": "mixture",
+    "half_life_hours": 168,
+    "NDCG@10": 0.01755483865943986
+  }
+]

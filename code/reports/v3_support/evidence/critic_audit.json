@@ -1,0 +1,90 @@
+{
+  "scope": "search prefix; positive pairs reused from encoder fitting, not held out",
+  "noise_permutation_seed": 190019,
+  "cutoff_exclusive": 25399800,
+  "pairs": 337778,
+  "held_out_target_sets_used": false,
+  "rows": [
+    {
+      "encoder": "global",
+      "noise_distribution": "global",
+      "balanced_logistic_loss_without_regularizer": 0.45127256505444224,
+      "training_pair_auc": 0.9745083672798927,
+      "real_logit_mean": 2.0835607051849365,
+      "noise_logit_mean": -0.01604490727186203,
+      "noise_positive_logit_share": 0.4927111890057967
+    },
+    {
+      "encoder": "global",
+      "noise_distribution": "conditional",
+      "balanced_logistic_loss_without_regularizer": 0.5993948530430674,
+      "training_pair_auc": 0.8943206653977267,
+      "real_logit_mean": 2.0835607051849365,
+      "noise_logit_mean": 0.4154549539089203,
+      "noise_positive_logit_share": 0.6337890567177259
+    },
+    {
+      "encoder": "global",
+      "noise_distribution": "mixture",
+      "balanced_logistic_loss_without_regularizer": 0.5252733704261909,
+      "training_pair_auc": 0.9343485752332483,
+      "real_logit_mean": 2.0835607051849365,
+      "noise_logit_mean": 0.19932490587234497,
+      "noise_positive_logit_share": 0.5630473269425481
+    },
+    {
+      "encoder": "conditional",
+      "noise_distribution": "global",
+      "balanced_logistic_loss_without_regularizer": 0.4667337994841233,
+      "training_pair_auc": 0.965485524781927,
+      "real_logit_mean": 1.7084914445877075,
+      "noise_logit_mean": -0.008109216578304768,
+      "noise_positive_logit_share": 0.4965628312086637
+    },
+    {
+      "encoder": "conditional",
+      "noise_distribution": "conditional",
+      "balanced_logistic_loss_without_regularizer": 0.46049041349146713,
+      "training_pair_auc": 0.9495521693167659,
+      "real_logit_mean": 1.7084914445877075,
+      "noise_logit_mean": -0.1074725016951561,
+      "noise_positive_logit_share": 0.42312702425853665
+    },
+    {
+      "encoder": "conditional",
+      "noise_distribution": "mixture",
+      "balanced_logistic_loss_without_regularizer": 0.46330889506722217,
+      "training_pair_auc": 0.9576419220098682,
+      "real_logit_mean": 1.7084914445877075,
+      "noise_logit_mean": -0.058879170566797256,
+      "noise_positive_logit_share": 0.4593283162313709
+    },
+    {
+      "encoder": "mixture",
+      "noise_distribution": "global",
+      "balanced_logistic_loss_without_regularizer": 0.45918682937095373,
+      "training_pair_auc": 0.9765808340667363,
+      "real_logit_mean": 1.782770037651062,
+      "noise_logit_mean": -0.008649338036775589,
+      "noise_positive_logit_share": 0.4946384903694142
+    },
+    {
+      "encoder": "mixture",
+      "noise_distribution": "conditional",
+      "balanced_logistic_loss_without_regularizer": 0.4834811243650847,
+      "training_pair_auc": 0.947253791350265,
+      "real_logit_mean": 1.782770037651062,
+      "noise_logit_mean": 0.026241863146424294,
+      "noise_positive_logit_share": 0.470696729804783
+    },
+    {
+      "encoder": "mixture",
+      "noise_distribution": "mixture",
+      "balanced_logistic_loss_without_regularizer": 0.47117962148738446,
+      "training_pair_auc": 0.9619463027115555,
+      "real_logit_mean": 1.782770037651062,
+      "noise_logit_mean": 0.00829550065100193,
+      "noise_positive_logit_share": 0.4820088934152017
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "primary": [
+    "global",
+    "conditional"
+  ],
+  "aggregation": "seeds within user-day, then days within user, then users"
+}

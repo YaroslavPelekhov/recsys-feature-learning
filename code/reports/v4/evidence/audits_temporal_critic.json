@@ -1,0 +1,80 @@
+{
+  "scope": "mechanistic diagnostic on old v3 search, not a new external test",
+  "fit_history_exclusive": 25227000,
+  "evaluation_target_day": 294,
+  "future_pairs": 10542,
+  "supported_pairs": 7890,
+  "supported_fraction": 0.7484348321001707,
+  "past_seen_edge_fraction_on_supported_pairs": 0.16172370088719898,
+  "v4_targets_used": false,
+  "rows": [
+    {
+      "encoder": "global",
+      "period": "training",
+      "noise": "global",
+      "positive_pairs": 334807,
+      "auc": 0.9749901544840103,
+      "balanced_loss": 0.45068950443822586
+    },
+    {
+      "encoder": "global",
+      "period": "training",
+      "noise": "conditional",
+      "positive_pairs": 334807,
+      "auc": 0.8944555062012362,
+      "balanced_loss": 0.6003480287957226
+    },
+    {
+      "encoder": "global",
+      "period": "later_day294",
+      "noise": "global",
+      "positive_pairs": 7890,
+      "auc": 0.6476281523032958,
+      "balanced_loss": 0.6497094871738038
+    },
+    {
+      "encoder": "global",
+      "period": "later_day294",
+      "noise": "conditional",
+      "positive_pairs": 7890,
+      "auc": 0.5536499732539144,
+      "balanced_loss": 0.7653344303041932
+    },
+    {
+      "encoder": "conditional",
+      "period": "training",
+      "noise": "global",
+      "positive_pairs": 334807,
+      "auc": 0.96639513601056,
+      "balanced_loss": 0.46467485324875246
+    },
+    {
+      "encoder": "conditional",
+      "period": "training",
+      "noise": "conditional",
+      "positive_pairs": 334807,
+      "auc": 0.9499764295070396,
+      "balanced_loss": 0.4594036929405642
+    },
+    {
+      "encoder": "conditional",
+      "period": "later_day294",
+      "noise": "global",
+      "positive_pairs": 7890,
+      "auc": 0.5521824323998709,
+      "balanced_loss": 0.7033040765853336
+    },
+    {
+      "encoder": "conditional",
+      "period": "later_day294",
+      "noise": "conditional",
+      "positive_pairs": 7890,
+      "auc": 0.5618274242957266,
+      "balanced_loss": 0.7064058361313157
+    }
+  ],
+  "models": {
+    "global": "d1c6c5501e4863928f3d628a4888be26e7421029f3560e7cec004766220f3b5e",
+    "conditional": "60c8d88ace6574e23e70b0312bc15ad4b1befa99cc2897f91a6e11209442a954"
+  }
+}

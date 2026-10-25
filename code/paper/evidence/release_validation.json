@@ -1,0 +1,126 @@
+{
+  "status": "verified",
+  "reports": {
+    "main": {
+      "status": "verified",
+      "files": 25,
+      "ndcg": {
+        "all_features": 0.1354622182926853,
+        "auto": 0.1346960323461118,
+        "item_knn": 0.11220755276078953,
+        "manual": 0.1346960323461118,
+        "no_relations": 0.13465351767510808,
+        "popularity": 0.12403768337691734,
+        "rrf": 0.11687292961296632
+      }
+    },
+    "replication": {
+      "status": "verified",
+      "files": 25,
+      "ndcg": {
+        "all_features": 0.14643517200554376,
+        "auto": 0.1458741859048329,
+        "item_knn": 0.11791701917084875,
+        "manual": 0.14557717408661314,
+        "no_relations": 0.14450266015692428,
+        "popularity": 0.1279022967889411,
+        "rrf": 0.12263621382448026
+      }
+    },
+    "v2": {
+      "status": "verified",
+      "files": 57,
+      "primary": "hybrid",
+      "ndcg": {
+        "adaptive_mix": 0.24205706340847188,
+        "ease": 0.18739061977426424,
+        "global_mix": 0.2390050756488989,
+        "hybrid": 0.24033397563942618,
+        "hybrid_original_pool": 0.2395512856475576,
+        "manual": 0.2317300589220257,
+        "manual_original_pool": 0.23490041852570137,
+        "popularity": 0.24000257572081743,
+        "residual_router": 0.23297898573214654
+      }
+    },
+    "v3": {
+      "status": "verified",
+      "files": 115,
+      "users": 620,
+      "primary": {
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.0007451975656217614,
+        "ci95": [
+          -0.0019723282817897315,
+          0.0003652607748986712
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      },
+      "ndcg": {
+        "all": 0.2175927840849989,
+        "conditional": 0.2185479449229952,
+        "global": 0.21929314248861692,
+        "manual": 0.2189443331106405,
+        "popularity": 0.015595098381772969,
+        "raw": 0.2173750508816298,
+        "repeat": 0.19339692733018415,
+        "signed": 0.21674573612100165,
+        "userknn": 0.0309740954781912
+      }
+    },
+    "v3_support": {
+      "status": "verified",
+      "files": 33,
+      "secondary_difference": {
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.0009608182376217638,
+        "ci95": [
+          -0.003007794258013113,
+          0.0010075815967522982
+        ],
+        "users": 620,
+        "resamples": 3000,
+        "seed": 2028
+      }
+    },
+    "v4": {
+      "status": "verified",
+      "files": 104,
+      "primary": {
+        "metric": "ndcg",
+        "difference_b_minus_a": -0.024714029251250647,
+        "ci95": [
+          -0.03280312665888835,
+          -0.016524964407802944
+        ],
+        "users": 636,
+        "resamples": 3000,
+        "seed": 424242
+      },
+      "ndcg": {
+        "A0": 0.11043045546235161,
+        "A1": 0.06639486357428959,
+        "fusionA0": 0.21943767084354038,
+        "fusionA1": 0.21943767084354038,
+        "fusionG0": 0.21943767084354038,
+        "fusionG1": 0.21943767084354038,
+        "G0": 0.09110889282554023,
+        "G1": 0.04507457008886346,
+        "legacy": 0.09110549591666907,
+        "manual": 0.21943767084354038,
+        "popularity": 0.015812076886178684,
+        "repeat": 0.19947607632548287,
+        "userknn": 0.03072903268620304
+      }
+    }
+  },
+  "article_claims": "matched",
+  "pdf_pages": 4,
+  "pdf_sha256": "d01f7a5989e2d9f2b3454a7955d91ab901c4e3c9925efcffa7d53befe9bcb942",
+  "links": {
+    "documents": 40,
+    "local_links": 98
+  }
+}

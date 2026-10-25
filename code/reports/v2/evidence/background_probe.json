@@ -1,0 +1,43 @@
+{
+  "users": 797423,
+  "items": 15237,
+  "edges": 4266013,
+  "fit_seconds": 32.13765479999984,
+  "lambda": 1000,
+  "metrics": [
+    {
+      "half_life": null,
+      "ndcg@10": 0.13979920231075638,
+      "recall@10": 0.20363311921186567,
+      "map@10": 0.09735428749491248,
+      "hit_rate@10": 0.32596153846153847,
+      "candidate_recall": 0.4711187837352177,
+      "oracle_ndcg": 0.5129791089103721,
+      "conditional_ndcg": 0.16876457017006544,
+      "users": 1040
+    },
+    {
+      "half_life": 7,
+      "ndcg@10": 0.13519888283208467,
+      "recall@10": 0.20063012955446421,
+      "map@10": 0.09294804612550148,
+      "hit_rate@10": 0.32019230769230766,
+      "candidate_recall": 0.4711187837352177,
+      "oracle_ndcg": 0.5129791089103721,
+      "conditional_ndcg": 0.16390134948266155,
+      "users": 1040
+    },
+    {
+      "half_life": 30,
+      "ndcg@10": 0.14465607706975794,
+      "recall@10": 0.21227284753909395,
+      "map@10": 0.10059445437719247,
+      "hit_rate@10": 0.3384615384615385,
+      "candidate_recall": 0.4711187837352177,
+      "oracle_ndcg": 0.5129791089103721,
+      "conditional_ndcg": 0.17475322145257105,
+      "users": 1040
+    }
+  ],
+  "scope": "search-only feasibility; more background users than main comparison"
+}

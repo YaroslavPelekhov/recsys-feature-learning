@@ -1,0 +1,403 @@
+{
+  "scope": "descriptive post-test; no model selection",
+  "coverage": [
+    {
+      "day": 298,
+      "evaluated_users": 503,
+      "novel_target_users": 361,
+      "novel_targets": 4237,
+      "reachable_novel_targets": 183,
+      "candidate_novel_pair_share": 0.5432074221338635,
+      "novel_candidate_recall_user_macro": 0.06508903206195785
+    },
+    {
+      "day": 299,
+      "evaluated_users": 500,
+      "novel_target_users": 372,
+      "novel_targets": 4725,
+      "reachable_novel_targets": 235,
+      "candidate_novel_pair_share": 0.5480666666666667,
+      "novel_candidate_recall_user_macro": 0.07141828251846313
+    }
+  ],
+  "exposure": [
+    {
+      "day": 298,
+      "method": "all",
+      "seed": 17,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "all",
+      "seed": 42,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 2,
+      "novel_top10_share": 0.00039761431411530816,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "all",
+      "seed": 73,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "conditional",
+      "seed": 17,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "conditional",
+      "seed": 42,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 2,
+      "novel_top10_share": 0.00039761431411530816,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "conditional",
+      "seed": 73,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "global",
+      "seed": 17,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "global",
+      "seed": 42,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 2,
+      "novel_top10_share": 0.00039761431411530816,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "global",
+      "seed": 73,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 2,
+      "novel_top10_share": 0.00039761431411530816,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "manual",
+      "seed": 17,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "manual",
+      "seed": 42,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "manual",
+      "seed": 73,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "popularity",
+      "seed": 0,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 3752,
+      "novel_top10_share": 0.7459244532803181,
+      "novel_top10_hits": 7
+    },
+    {
+      "day": 298,
+      "method": "raw",
+      "seed": 17,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "raw",
+      "seed": 42,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "raw",
+      "seed": 73,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "repeat",
+      "seed": 0,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 0,
+      "novel_top10_share": 0.0,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "signed",
+      "seed": 17,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 2,
+      "novel_top10_share": 0.00039761431411530816,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "signed",
+      "seed": 42,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 1,
+      "novel_top10_share": 0.00019880715705765408,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "signed",
+      "seed": 73,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 2,
+      "novel_top10_share": 0.00039761431411530816,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 298,
+      "method": "userknn",
+      "seed": 0,
+      "top10_pairs": 5030,
+      "novel_top10_pairs": 865,
+      "novel_top10_share": 0.17196819085487078,
+      "novel_top10_hits": 6
+    },
+    {
+      "day": 299,
+      "method": "all",
+      "seed": 17,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 4,
+      "novel_top10_share": 0.0008,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "all",
+      "seed": 42,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 6,
+      "novel_top10_share": 0.0012,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "all",
+      "seed": 73,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 5,
+      "novel_top10_share": 0.001,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "conditional",
+      "seed": 17,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 3,
+      "novel_top10_share": 0.0006,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "conditional",
+      "seed": 42,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 6,
+      "novel_top10_share": 0.0012,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "conditional",
+      "seed": 73,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 3,
+      "novel_top10_share": 0.0006,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "global",
+      "seed": 17,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 3,
+      "novel_top10_share": 0.0006,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "global",
+      "seed": 42,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 8,
+      "novel_top10_share": 0.0016,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "global",
+      "seed": 73,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 4,
+      "novel_top10_share": 0.0008,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "manual",
+      "seed": 17,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 4,
+      "novel_top10_share": 0.0008,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "manual",
+      "seed": 42,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 4,
+      "novel_top10_share": 0.0008,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "manual",
+      "seed": 73,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 4,
+      "novel_top10_share": 0.0008,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "popularity",
+      "seed": 0,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 3841,
+      "novel_top10_share": 0.7682,
+      "novel_top10_hits": 13
+    },
+    {
+      "day": 299,
+      "method": "raw",
+      "seed": 17,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 6,
+      "novel_top10_share": 0.0012,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "raw",
+      "seed": 42,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 5,
+      "novel_top10_share": 0.001,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "raw",
+      "seed": 73,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 4,
+      "novel_top10_share": 0.0008,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "repeat",
+      "seed": 0,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 0,
+      "novel_top10_share": 0.0,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "signed",
+      "seed": 17,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 8,
+      "novel_top10_share": 0.0016,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "signed",
+      "seed": 42,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 6,
+      "novel_top10_share": 0.0012,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "signed",
+      "seed": 73,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 7,
+      "novel_top10_share": 0.0014,
+      "novel_top10_hits": 0
+    },
+    {
+      "day": 299,
+      "method": "userknn",
+      "seed": 0,
+      "top10_pairs": 5000,
+      "novel_top10_pairs": 879,
+      "novel_top10_share": 0.1758,
+      "novel_top10_hits": 8
+    }
+  ]
+}

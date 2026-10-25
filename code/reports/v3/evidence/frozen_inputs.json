@@ -1,0 +1,20 @@
+{
+  "recipe_sha256": "71d7c6355ca0ba7fc354ffc5735cf8ba487ad81bd0412906e42a647429330460",
+  "code": {
+    "src/rec/transition.py": "b425dd8d43f677c052dbd34e902258274b3e5b63eefd7e2febbe0171d2e16c3f",
+    "src/rec/music.py": "0f69bb14f65e95d231c210704260fabbf8401ba13d52a458ddf303d3b7bdd13c",
+    "scripts/research_v3.py": "2bb969e4fa6b5e3b1718a0251cb911e460bce52d8fb933c37fd7543f725c58f2",
+    "scripts/parallel_v3.py": "e62377106d9452cb8850d73d02fd431a198eb5a51a19c3c06308dbc0917faa61",
+    "pyproject.toml": "c28e30a09f2ba29a790d8a0b723d46bb8fb9ce221a94f97f6c9db0c61b3f7865",
+    "uv.lock": "f3f8d5ecc07f1628b6c6368bdc4a8a69e59e4514b09de5108a247531edee2e88"
+  },
+  "inputs": {
+    "sampled_events.parquet": "97907503099734be86c7f8ae72edd5dfbcb1bfd919df81febfedcde02f6ca4f4",
+    "cache/day286.parquet": "11e08b99725f5f4e2b0ad0abc07ebe982528cc97ad99cfe5400c3d6f3efbc850",
+    "cache/day288.parquet": "4148e415b50e694d21f13ea9906c416d6d203d6c0a3f5dec076dd1ccbf3b4c2b",
+    "cache/day290.parquet": "ee83a14ee56e7d5e4b7c2d7faf8355cad72562460bafaa4ba3e963aeb391bf8f",
+    "cache/day292.parquet": "ea494772ffb2ce2e9689003616080b859b3af548f7fdc03a0956a8664165f4cc",
+    "cache/day294.parquet": "12cbbc4dbf789889bfe846afd8d054a6ea78ce57454cb9d5a936fc210162f040",
+    "cache/day296.parquet": "1bfea8b80d024097349fd2dad756f6000cb4c2eab1094b32e866fc7e9d500efb"
+  }
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "method": "manual",
+    "ndcg": 0.14583016999523893,
+    "iterations": 250,
+    "depth": 5,
+    "features": 71,
+    "seconds": 79.17521080000006
+  },
+  {
+    "method": "manual",
+    "ndcg": 0.14620201493427978,
+    "iterations": 275,
+    "depth": 7,
+    "features": 71,
+    "seconds": 83.66076770000018
+  },
+  {
+    "method": "hybrid",
+    "ndcg": 0.1517249591683252,
+    "iterations": 350,
+    "depth": 5,
+    "features": 77,
+    "seconds": 78.86250199999995
+  },
+  {
+    "method": "hybrid",
+    "ndcg": 0.15216737791288085,
+    "iterations": 575,
+    "depth": 7,
+    "features": 77,
+    "seconds": 84.16752830000041
+  },
+  {
+    "method": "global_mix",
+    "l2": 0.01,
+    "scale": 1.0,
+    "ndcg": 0.14120266428112163,
+    "seconds": 1.7641088999998829,
+    "adaptive": false,
+    "offset_column": null,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 17,
+      "loss": 4.5016818200459525
+    }
+  },
+  {
+    "method": "global_mix",
+    "l2": 0.1,
+    "scale": 1.0,
+    "ndcg": 0.1376946147088033,
+    "seconds": 1.3475563000001785,
+    "adaptive": false,
+    "offset_column": null,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 12,
+      "loss": 4.931319387377582
+    }
+  },
+  {
+    "method": "adaptive_mix",
+    "l2": 0.01,
+    "scale": 1.0,
+    "ndcg": 0.14239838388014964,
+    "seconds": 4.74308689999998,
+    "adaptive": true,
+    "offset_column": null,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 65,
+      "loss": 4.444831006577434
+    }
+  },
+  {
+    "method": "adaptive_mix",
+    "l2": 0.1,
+    "scale": 1.0,
+    "ndcg": 0.14129203881203492,
+    "seconds": 2.1626085999996576,
+    "adaptive": true,
+    "offset_column": null,
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 27,
+      "loss": 4.881363448051103
+    }
+  },
+  {
+    "method": "residual_router",
+    "l2": 0.01,
+    "scale": 0.25,
+    "ndcg": 0.14283653622615644,
+    "seconds": 1.67513179999969,
+    "adaptive": true,
+    "offset_column": "base_score",
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 19,
+      "loss": 8.911213795203453
+    }
+  },
+  {
+    "method": "residual_router",
+    "l2": 0.01,
+    "scale": 0.5,
+    "ndcg": 0.1466140691157581,
+    "seconds": 1.4512241000002177,
+    "adaptive": true,
+    "offset_column": "base_score",
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 15,
+      "loss": 8.952363108097222
+    }
+  },
+  {
+    "method": "residual_router",
+    "l2": 0.01,
+    "scale": 1.0,
+    "ndcg": 0.14492034561333816,
+    "seconds": 1.84691599999951,
+    "adaptive": true,
+    "offset_column": "base_score",
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 21,
+      "loss": 8.996433463244053
+    }
+  },
+  {
+    "method": "residual_router",
+    "l2": 0.1,
+    "scale": 0.25,
+    "ndcg": 0.14574677255846108,
+    "seconds": 1.5665978999995787,
+    "adaptive": true,
+    "offset_column": "base_score",
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 17,
+      "loss": 9.460820183095764
+    }
+  },
+  {
+    "method": "residual_router",
+    "l2": 0.1,
+    "scale": 0.5,
+    "ndcg": 0.14363017728765995,
+    "seconds": 1.84309359999952,
+    "adaptive": true,
+    "offset_column": "base_score",
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 23,
+      "loss": 9.73587160106847
+    }
+  },
+  {
+    "method": "residual_router",
+    "l2": 0.1,
+    "scale": 1.0,
+    "ndcg": 0.14654525257754974,
+    "seconds": 2.129154899999776,
+    "adaptive": true,
+    "offset_column": "base_score",
+    "optimizer": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 26,
+      "loss": 10.164478507426185
+    }
+  }
+]

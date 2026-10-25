@@ -1,0 +1,66 @@
+{
+  "status": "verified",
+  "checks": [
+    {
+      "day": 296,
+      "seed": 17,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "6effc11e04d3acfc2976f20e1a14c090fc7343d8b89d297df02577df9d434df6",
+      "manual_predictions_sha256": "e352746b2373a4bbc1f7ac8cd03f10970b18c7e71432038b8787934fd82b6358"
+    },
+    {
+      "day": 298,
+      "seed": 17,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "06cc459eb2bc4ccfec2895755195d5c52052deadc44d517f0e9f014dddd53748",
+      "manual_predictions_sha256": "62004562577bf1a1a915c6950a3384c4abe79a003d7a74875d424dfaa767b7dd"
+    },
+    {
+      "day": 299,
+      "seed": 17,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "23b2e24da8889fe1cb2f7364719383c415a219f6ef460a91f96cb59bed05a83d",
+      "manual_predictions_sha256": "497ecc39c152d391628543d11670cbd6788526e37f9c8e84968d3980ae340507"
+    },
+    {
+      "day": 298,
+      "seed": 42,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "3c81ef8dfdf7b95dce6e540657e0568199ada7ee9118bfd78475af7edf04481a",
+      "manual_predictions_sha256": "cc976eb1c88e620a13397b352fa9390ef88b6e6a669572131c0a623d4f208cb6"
+    },
+    {
+      "day": 299,
+      "seed": 42,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "b1614446bcc4fde9f1290364d332b8cf945e12340c528a64efa31e6555f19231",
+      "manual_predictions_sha256": "97bd409b88f3ff7edf8e648598c07d8a363f7176e9f7b924ffef86ba639885c5"
+    },
+    {
+      "day": 298,
+      "seed": 73,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "26124634fde35950c4112c533a7481f9569ffad2050c9ac878bdba649db09ab7",
+      "manual_predictions_sha256": "6a45b800e176b41eb11c91eabc2d25fd855021e3e6ae4fc6b677b25a8e1f2d7c"
+    },
+    {
+      "day": 299,
+      "seed": 73,
+      "max_absolute_error": 0.0,
+      "predictions_sha256": "9a8d848c523201064193765dd485d910962b8c485237130b5a3cd2d6e9e03858",
+      "manual_predictions_sha256": "b6f467e5fd384dbc9c7e61e6eb1fc7a39ff8666c9f677532fece62986081ea79"
+    }
+  ],
+  "feature_replay": [
+    {
+      "day": 298,
+      "future_rows_mutated": 71356,
+      "max_absolute_error": 0.0
+    },
+    {
+      "day": 299,
+      "future_rows_mutated": 48060,
+      "max_absolute_error": 0.0
+    }
+  ]
+}

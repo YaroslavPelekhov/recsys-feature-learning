@@ -1,0 +1,202 @@
+[
+  {
+    "trial": "manual_depth5",
+    "ndcg": 0.15843308896035135,
+    "iterations": 350,
+    "depth": 5,
+    "features": 71,
+    "seconds": 29.432530999999926
+  },
+  {
+    "trial": "manual_depth7",
+    "ndcg": 0.1550516755362801,
+    "iterations": 325,
+    "depth": 7,
+    "features": 71,
+    "seconds": 31.46436330000006
+  },
+  {
+    "trial": "step1/window2",
+    "ndcg": 0.15627902526771126,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 29.992457600000307
+  },
+  {
+    "trial": "step1/window3",
+    "ndcg": 0.15895982690916066,
+    "iterations": 300,
+    "depth": 5,
+    "features": 86,
+    "seconds": 29.99151329999995
+  },
+  {
+    "trial": "step1/window5",
+    "ndcg": 0.16010440453559158,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 29.9773353999999
+  },
+  {
+    "trial": "step1/window10",
+    "ndcg": 0.1570059500633928,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 30.07374350000009
+  },
+  {
+    "trial": "step1/window14",
+    "ndcg": 0.1569344092256849,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 29.931399500000225
+  },
+  {
+    "trial": "step1/window21",
+    "ndcg": 0.1568638183056606,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 30.04527589999998
+  },
+  {
+    "trial": "step1/window45",
+    "ndcg": 0.15607824574536608,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 30.131445099999837
+  },
+  {
+    "trial": "step1/window60",
+    "ndcg": 0.1576091654234213,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 31.327009999999973
+  },
+  {
+    "trial": "step1/decay3",
+    "ndcg": 0.1554840860552902,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 30.550898499999676
+  },
+  {
+    "trial": "step1/decay10",
+    "ndcg": 0.1565821443558182,
+    "iterations": 325,
+    "depth": 5,
+    "features": 86,
+    "seconds": 31.131392100000085
+  },
+  {
+    "trial": "step1/decay30",
+    "ndcg": 0.15824125191823107,
+    "iterations": 350,
+    "depth": 5,
+    "features": 86,
+    "seconds": 31.198168900000383
+  },
+  {
+    "trial": "step2/window2",
+    "ndcg": 0.15917539098430783,
+    "iterations": 350,
+    "depth": 5,
+    "features": 101,
+    "seconds": 31.152746599999773
+  },
+  {
+    "trial": "step2/window3",
+    "ndcg": 0.1590098590814683,
+    "iterations": 350,
+    "depth": 5,
+    "features": 101,
+    "seconds": 30.282834199999797
+  },
+  {
+    "trial": "step2/window10",
+    "ndcg": 0.16104846484170926,
+    "iterations": 325,
+    "depth": 5,
+    "features": 101,
+    "seconds": 30.505700799999886
+  },
+  {
+    "trial": "step2/window14",
+    "ndcg": 0.16061624557726575,
+    "iterations": 350,
+    "depth": 5,
+    "features": 101,
+    "seconds": 30.155910500000118
+  },
+  {
+    "trial": "step2/window21",
+    "ndcg": 0.1585047207807268,
+    "iterations": 350,
+    "depth": 5,
+    "features": 101,
+    "seconds": 26.99137950000022
+  },
+  {
+    "trial": "step2/window45",
+    "ndcg": 0.15873294003415064,
+    "iterations": 325,
+    "depth": 5,
+    "features": 101,
+    "seconds": 31.37881030000017
+  },
+  {
+    "trial": "step2/window60",
+    "ndcg": 0.15838235099738313,
+    "iterations": 300,
+    "depth": 5,
+    "features": 101,
+    "seconds": 30.686083000000053
+  },
+  {
+    "trial": "step2/decay3",
+    "ndcg": 0.15835088219499938,
+    "iterations": 300,
+    "depth": 5,
+    "features": 101,
+    "seconds": 30.670953800000007
+  },
+  {
+    "trial": "step2/decay10",
+    "ndcg": 0.16070833523551242,
+    "iterations": 350,
+    "depth": 5,
+    "features": 101,
+    "seconds": 31.479021300000113
+  },
+  {
+    "trial": "step2/decay30",
+    "ndcg": 0.159656814363785,
+    "iterations": 300,
+    "depth": 5,
+    "features": 101,
+    "seconds": 30.768236500000057
+  },
+  {
+    "trial": "all_features",
+    "ndcg": 0.15851475989903235,
+    "iterations": 350,
+    "depth": 5,
+    "features": 236,
+    "seconds": 36.09510399999999
+  },
+  {
+    "trial": "manual_without_relational_aggregates",
+    "ndcg": 0.1543049530665419,
+    "iterations": 350,
+    "depth": 5,
+    "features": 35,
+    "seconds": 28.70640870000034
+  }
+]

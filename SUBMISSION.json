@@ -1,0 +1,8 @@
+{
+  "task": 1,
+  "prepared": "2026-10-24",
+  "pages": 4,
+  "paper_sha256": "d01f7a5989e2d9f2b3454a7955d91ab901c4e3c9925efcffa7d53befe9bcb942",
+  "latex_main": "paper/article.tex",
+  "no_new_experiments": true
+}

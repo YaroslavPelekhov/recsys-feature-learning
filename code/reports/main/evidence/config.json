@@ -1,0 +1,41 @@
+{
+  "n_users": 10000,
+  "sample_seed": 2026,
+  "model_seeds": [
+    17,
+    42,
+    73
+  ],
+  "horizon_days": 7,
+  "train_snapshots": 4,
+  "candidates": 120,
+  "retrieval_per_source": 80,
+  "neighbors": 50,
+  "max_history": 50,
+  "iterations": 350,
+  "depths": [
+    5,
+    7
+  ],
+  "learning_rate": 0.05,
+  "threads": 12,
+  "search_steps": 2,
+  "search_windows": [
+    2,
+    3,
+    5,
+    10,
+    14,
+    21,
+    45,
+    60
+  ],
+  "search_half_lives": [
+    3,
+    10,
+    30
+  ],
+  "min_gain": 0.0005,
+  "bootstrap_samples": 3000,
+  "k": 10
+}

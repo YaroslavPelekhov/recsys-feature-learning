@@ -1,0 +1,10 @@
+{
+  "scope": "search historical transition pairs only",
+  "active_items": 79281,
+  "single_user_item_fraction": 0.6138923575636028,
+  "median_distinct_users_per_item": 1.0,
+  "distinct_directed_edges": 283433,
+  "singleton_edge_fraction": 0.926105993303532,
+  "median_observations_per_edge": 1.0,
+  "transitions": 337778
+}

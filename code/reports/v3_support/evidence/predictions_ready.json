@@ -1,0 +1,14 @@
+{
+  "recipe_sha256": "f742d7e16db1cb8ec76d5e0aa3a6af5a0ef002768e34c6af95c501b4f0979a9d",
+  "base_recipe_sha256": "71d7c6355ca0ba7fc354ffc5735cf8ba487ad81bd0412906e42a647429330460",
+  "main_test_targets_exist": false,
+  "predictions": {
+    "support_seed17_day296_predictions.parquet": "6effc11e04d3acfc2976f20e1a14c090fc7343d8b89d297df02577df9d434df6",
+    "support_seed17_day298_predictions.parquet": "06cc459eb2bc4ccfec2895755195d5c52052deadc44d517f0e9f014dddd53748",
+    "support_seed17_day299_predictions.parquet": "23b2e24da8889fe1cb2f7364719383c415a219f6ef460a91f96cb59bed05a83d",
+    "support_seed42_day298_predictions.parquet": "3c81ef8dfdf7b95dce6e540657e0568199ada7ee9118bfd78475af7edf04481a",
+    "support_seed42_day299_predictions.parquet": "b1614446bcc4fde9f1290364d332b8cf945e12340c528a64efa31e6555f19231",
+    "support_seed73_day298_predictions.parquet": "26124634fde35950c4112c533a7481f9569ffad2050c9ac878bdba649db09ab7",
+    "support_seed73_day299_predictions.parquet": "9a8d848c523201064193765dd485d910962b8c485237130b5a3cd2d6e9e03858"
+  }
+}

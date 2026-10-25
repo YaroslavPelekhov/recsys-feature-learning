@@ -1,0 +1,21 @@
+{
+  "torch": "2.5.1+cu121",
+  "cuda_runtime": "12.1",
+  "cudnn": 90100,
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "device_memory_bytes": 17170956288,
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "catboost": "1.2.10",
+    "pyarrow": "21.0.0",
+    "filelock": "3.20.0",
+    "sympy": "1.13.1",
+    "networkx": "3.5",
+    "fsspec": "2025.9.0",
+    "typing-extensions": "4.15.0"
+  },
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "ram_bytes": 51317395456
+}
