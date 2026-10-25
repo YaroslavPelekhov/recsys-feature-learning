@@ -1,11 +1,12 @@
 {
   "source": "paper/article.tex",
-  "source_sha256": "284133f8c25443f04ea170ab337f12704b0964b7730223208760f3f5a02323f1",
+  "source_sha256": "5b9c31d7ba7562e9cb044af5864506cba48df2e166e86a6a039da6c87eb305cc",
   "figure_sha256": {
+    "paper/figures/architecture.pdf": "4002c26e991aab675a4716cc60f3e8394ccb1366ce84295114b5ea00a9a19356",
     "paper/figures/model_comparison.pdf": "51317161763851552baa78247b6ae7ef7af7a0ebf889085073a0ae7bcff252e2",
     "paper/figures/paired_effects.pdf": "0059beb88aa03bb7cf3811a633b2fc4f371ce69f549411c037e88f7fa2f37c79"
   },
-  "pdf_sha256": "d01f7a5989e2d9f2b3454a7955d91ab901c4e3c9925efcffa7d53befe9bcb942",
+  "pdf_sha256": "69221c45176ba668b3f1551e6896fbf89a762c11ff6664ef0a737fd358287974",
   "engine": "MiKTeX-XeTeX 4.16 (MiKTeX 25.12)",
   "passes": 2,
   "overfull_boxes": 0,

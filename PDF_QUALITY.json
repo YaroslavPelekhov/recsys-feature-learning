@@ -2,25 +2,25 @@
   "pages": [
     {
       "page": 1,
-      "text_chars": 4200,
+      "text_chars": 4453,
       "outside_margins": 0
     },
     {
       "page": 2,
-      "text_chars": 4904,
+      "text_chars": 4336,
       "outside_margins": 0
     },
     {
       "page": 3,
-      "text_chars": 3584,
+      "text_chars": 3846,
       "outside_margins": 0
     },
     {
       "page": 4,
-      "text_chars": 1471,
+      "text_chars": 3497,
       "outside_margins": 0
     }
   ],
   "page_count": 4,
-  "pdf_sha256": "d01f7a5989e2d9f2b3454a7955d91ab901c4e3c9925efcffa7d53befe9bcb942"
+  "pdf_sha256": "69221c45176ba668b3f1551e6896fbf89a762c11ff6664ef0a737fd358287974"
 }

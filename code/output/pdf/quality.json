@@ -1,45 +1,35 @@
 {
-  "pdf_sha256": "d01f7a5989e2d9f2b3454a7955d91ab901c4e3c9925efcffa7d53befe9bcb942",
+  "pdf_sha256": "69221c45176ba668b3f1551e6896fbf89a762c11ff6664ef0a737fd358287974",
   "pages": [
     {
       "page": 1,
-      "characters": 3933,
+      "characters": 4095,
       "images": 0,
       "text_within_safe_margins": true
     },
     {
       "page": 2,
-      "characters": 4407,
+      "characters": 3938,
       "images": 0,
       "text_within_safe_margins": true
     },
     {
       "page": 3,
-      "characters": 3282,
+      "characters": 3524,
       "images": 0,
       "text_within_safe_margins": true
     },
     {
       "page": 4,
-      "characters": 1392,
+      "characters": 3253,
       "images": 0,
       "text_within_safe_margins": true
     }
   ],
-  "reference_links": 18,
-  "outlines": 7,
+  "reference_links": 19,
+  "outlines": 8,
   "contact_sheets": [
-    "tmp/pdfs/research-redesign/pages/contact-1.jpg"
+    "tmp/pdfs/editorial-task1-legacy/contact-1.jpg"
   ],
-  "automatic_checks": "passed; visual inspection recorded separately",
-  "visual_review": {
-    "status": "passed",
-    "pages": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "review": "All latest pages inspected. Paragraph and bibliography items no longer have single-line splits across columns. Vector charts and labels checked at full resolution."
-  }
+  "automatic_checks": "passed; visual inspection recorded separately"
 }

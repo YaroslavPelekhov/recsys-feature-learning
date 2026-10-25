@@ -235,6 +235,10 @@
     "source": "scripts/download_yambda.py",
     "sha256": "7a59c378725b850928e207b66d2589026aca38bbdc45238e25086edf3530795c"
   },
+  "code/scripts/draw_research_architecture.py": {
+    "source": "scripts/draw_research_architecture.py",
+    "sha256": "57cf0359c571aa61cfd92b09324466e8b0dabbee2e76ef6766e964992c6360d2"
+  },
   "code/scripts/paper_figures.py": {
     "source": "scripts/paper_figures.py",
     "sha256": "611b8128cec6bc2cb2808fca8cdb14134219fbd7dd784be98a286e1e34a11c3f"
@@ -1837,7 +1841,7 @@
   },
   "code/paper/article.tex": {
     "source": "paper/article.tex",
-    "sha256": "284133f8c25443f04ea170ab337f12704b0964b7730223208760f3f5a02323f1"
+    "sha256": "5b9c31d7ba7562e9cb044af5864506cba48df2e166e86a6a039da6c87eb305cc"
   },
   "code/paper/references.bib": {
     "source": "paper/references.bib",
@@ -1850,6 +1854,18 @@
   "code/paper/ARTICLE.md": {
     "source": "paper/ARTICLE.md",
     "sha256": "73ed23a4b9990eb6ea5b3d440aee3774a9d5e604c64fff2dc7a9b4d499585b13"
+  },
+  "code/paper/figures/architecture.pdf": {
+    "source": "paper/figures/architecture.pdf",
+    "sha256": "4002c26e991aab675a4716cc60f3e8394ccb1366ce84295114b5ea00a9a19356"
+  },
+  "code/paper/figures/architecture.png": {
+    "source": "paper/figures/architecture.png",
+    "sha256": "50abb45101c1c40d36701d9f49bc09988336962216e26e65c25bdbfc5cbba4e8"
+  },
+  "code/paper/figures/architecture.svg": {
+    "source": "paper/figures/architecture.svg",
+    "sha256": "275cd4dd6b7e39662279e4bcc1e39f3bc4c62d5bd537616ea51724b3f2bed8b8"
   },
   "code/paper/figures/model_comparison.pdf": {
     "source": "paper/figures/model_comparison.pdf",
@@ -1877,30 +1893,42 @@
   },
   "code/paper/evidence/final_source_checksums.json": {
     "source": "paper/evidence/final_source_checksums.json",
-    "sha256": "aeee7d53e59aed312b15ac97c614efa0118e8f370837d7ce658810d21de17183"
+    "sha256": "c8ab06378dca305c3529d3114fda2684b61d2848115be3a9e44bae953626488d"
   },
   "code/paper/evidence/release_validation.json": {
     "source": "paper/evidence/release_validation.json",
-    "sha256": "671e665a3089cfc467320d2491d796179e39ba246dd6530133688e7f05efc36d"
+    "sha256": "5cd9aa5731e80cccd7d924f43c2b6ae1f2974ad435712f8248f6415cdd765e98"
   },
   "code/paper/evidence/source_checksums.json": {
     "source": "paper/evidence/source_checksums.json",
-    "sha256": "9ea1164f260341fefb9a251cd5018190869a52dac86d32f1360598d2d7eabebc"
+    "sha256": "2847e9d21447cab5012cc87052e96c196109b98c2d5286d3724e09690886423c"
   },
   "code/output/pdf/research-paper.pdf": {
     "source": "output/pdf/research-paper.pdf",
-    "sha256": "d01f7a5989e2d9f2b3454a7955d91ab901c4e3c9925efcffa7d53befe9bcb942"
+    "sha256": "69221c45176ba668b3f1551e6896fbf89a762c11ff6664ef0a737fd358287974"
   },
   "code/output/pdf/build.json": {
     "source": "output/pdf/build.json",
-    "sha256": "bf85926669ebb9cc02713236f0f416a7ae1648a3ce1b1e4aa66f77025d63c9ae"
+    "sha256": "5930490ed357fd488ada6ce4bac95becbf3aac1a44e3d5bce90026c0fb842876"
   },
   "code/output/pdf/quality.json": {
     "source": "output/pdf/quality.json",
-    "sha256": "9e9b084b1a9ff96dca2e8b6995a63e5683f7974e831659e1c834fa0adfaabc79"
+    "sha256": "4be994389501c577ca80d2e3968ee29c88ece4e1f933dd470de4d7b079e1310b"
   },
   "code/scripts/check_release_original.py": {
     "source": "scripts/check_release.py",
     "sha256": "e5a294a0211cc75cebd14d4ee646a6ad599142eea3208fbb33859c246b3369f8"
+  },
+  "assets/architecture.pdf": {
+    "source": "paper/figures/architecture.pdf",
+    "sha256": "4002c26e991aab675a4716cc60f3e8394ccb1366ce84295114b5ea00a9a19356"
+  },
+  "assets/architecture.svg": {
+    "source": "paper/figures/architecture.svg",
+    "sha256": "275cd4dd6b7e39662279e4bcc1e39f3bc4c62d5bd537616ea51724b3f2bed8b8"
+  },
+  "assets/architecture.png": {
+    "source": "paper/figures/architecture.png",
+    "sha256": "50abb45101c1c40d36701d9f49bc09988336962216e26e65c25bdbfc5cbba4e8"
   }
 }
